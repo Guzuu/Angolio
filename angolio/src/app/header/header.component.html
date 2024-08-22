@@ -1,0 +1,13 @@
+<div class="container container-header">
+    <div class="content">
+        <div>
+            <a href="/"><img  class="image" src="/assets/images/GuzuuCodeSmall.png"/></a>
+        </div>
+        <div>
+            <ul>
+                <li *ngFor='let item of navList'><a href={{item.endpoint}}>{{item.title}}</a></li>
+            </ul>
+        </div>
+        <div><p>header works!</p></div>
+    </div>
+</div>

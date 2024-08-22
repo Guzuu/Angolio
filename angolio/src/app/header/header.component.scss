@@ -1,0 +1,21 @@
+.container{
+    &-header{
+        >.content{
+            display: flex;
+            justify-content: space-evenly;
+        }
+        img {
+            width: 48px;
+        }
+        ul {
+            display: flex;
+            justify-content: space-evenly;
+            >li{
+                padding: 0px 20px;
+                >a{
+                    text-transform: uppercase;
+                }
+            }
+        }
+    }
+}
