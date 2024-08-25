@@ -1,15 +1,27 @@
-import { NgFor } from '@angular/common';
+import { NgClass, NgFor } from '@angular/common';
 import { Component } from '@angular/core';
+import { SocialsComponent } from '../elements/socials/socials.component';
+import { RouterLink } from '@angular/router';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { faBars } from '@fortawesome/free-solid-svg-icons'
+import { MatSidenavModule } from '@angular/material/sidenav';
 
 @Component({
   selector: 'app-header',
   standalone: true,
-  imports: [NgFor],
+  imports: [NgFor, SocialsComponent, NgClass, RouterLink, FontAwesomeModule, MatSidenavModule],
   templateUrl: './header.component.html',
   styleUrl: './header.component.scss'
 })
 export class HeaderComponent {
-  navList: NavLink[] = [
+  faBars = faBars;
+  isMenuOpen: boolean = false;
+
+  toggleMenu(): void {
+    this.isMenuOpen = !this.isMenuOpen;
+  }
+
+  navList: INavLink[] = [
     {
       id: 0,
       title: 'Home',
@@ -47,9 +59,9 @@ export class HeaderComponent {
   ]
 }
 
-export class NavLink {
-  id = 0;
-  title = 'Link';
-  endpoint = '/';
-  active = false;
+export interface INavLink {
+  id: number;
+  title: string;
+  endpoint: string;
+  active: boolean;
 }

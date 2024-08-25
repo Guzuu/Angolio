@@ -1,0 +1,33 @@
+@import "../../variables.scss";
+
+.container-footer {
+    display: flex;
+    background-color: $primary-background;
+    height: 300px;
+    align-content: center;
+
+    >.content {
+        z-index: 10;
+        display: flex;
+        justify-content: space-between;
+        min-height: 100%;
+        max-height: 100%;
+
+
+        @media (max-width: 768px) {
+            flex-direction: column;
+            text-align: center;
+            justify-content: space-evenly;
+            app-socials {
+                display: inline-flex;
+            }
+        }
+        >div {
+            align-content: center;
+        }
+    }
+
+    img {
+        width: 48px;
+    }
+}

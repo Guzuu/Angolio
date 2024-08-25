@@ -1,0 +1,19 @@
+<div class="container">
+    <div class="content">
+        <div *ngIf="sectionHeader != null" class="section-header"
+            [ngStyle]="{'text-align': (headerCentered) ? 'center' : null}">
+            <h2>{{sectionHeader.title}}</h2>
+            <p>
+                {{sectionHeader.text}}
+            </p>
+        </div>
+        <div class="list">
+            <div *ngFor='let item of list' class="list-item">
+                <h3>{{item.title}}</h3>
+                <p>
+                    {{item.text}}
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
