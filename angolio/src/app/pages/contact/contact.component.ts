@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
+import { ImgtextComponent } from '../../sections/imgtext/imgtext.component';
 
 @Component({
   selector: 'app-contact',
   standalone: true,
-  imports: [],
+  imports: [ImgtextComponent],
   templateUrl: './contact.component.html',
   styleUrl: './contact.component.scss'
 })

@@ -1,1 +1,19 @@
-<p>portfolio works!</p>
+<app-imgtext
+    [sectionHeader]="{ title: 'Portfolio'}"
+></app-imgtext>
+<app-list
+    [sectionHeader]="{ title: 'Applications', text: 'Desktop, mobile, webAPIs' }"
+    [list]="[
+    { title: 'Redo', text: 'I am creating a sports competition app designed for Android and iOS devices using Flutter technology. The API for this application is being developed in .NET CORE technology.' },
+    { title: 'SEBlueprintCalc', text: 'Tool calculating values for blueprints designed for the game Space Engineers. The tool automatically locates the game folder and updates the database from the game files.' },
+    { title: 'TrovePixelArtTool', text: 'Tool for converting graphic files into the so-called pixel art. It utilizes color matching technology with the highest resemblance.' }
+    ]"
+></app-list>
+<app-list
+    [sectionHeader]="{ title: 'Websites', text: 'Websites made via various CMSes' }"
+    [list]="[
+    { title: 'alternatywa-travel.pl', text: 'This website is dedicated to travel agency located near Mielec. They usually organize various camps for children in the middle of the forest with focus on bushcraft and independence skills' },
+    { title: 'wrotki-wywrotki.pl', text: 'The website, along with the store, is dedicated to two entertainment centers of the Wywrotki company in Mielec and Rzeszów. Wywrotki features play areas for children and roller rinks.' },
+    { title: 'artmar.eu', text: 'The website is dedicated to a small manufacturer of smokers, bbq-grills and furniture.' }
+    ]"
+></app-list>

@@ -5,14 +5,14 @@ import { NgIf, NgStyle } from '@angular/common';
 @Component({
   selector: 'app-imgtext',
   standalone: true,
-  imports: [NgIf, NgStyle],
+  imports: [NgIf, NgStyle, NgIf],
   templateUrl: './imgtext.component.html',
   styleUrl: './imgtext.component.scss'
 })
 export class ImgtextComponent {
   @Input() headerCentered: boolean = false;
   @Input() sectionHeader!: ITitleText;
-  @Input() imagePath: string ="/assets/images/GuzuuCodeSmall.png";
+  @Input() imagePath: string | undefined;
   @Input() alt: string ="image";
 
   constructor() { }
