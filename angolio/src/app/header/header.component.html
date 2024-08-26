@@ -3,30 +3,13 @@
         <div>
             <a href="/"><img class="image" src="/assets/images/GuzuuCodeSmall.png" /></a>
         </div>
-        <!-- Navigation Menu -->
-        <div  class="nav-menu"><ul [ngClass]="{ 'active': isMenuOpen }">
-            <li *ngFor='let item of navList'>
-            <a [routerLink]="item.endpoint" [class.active]="item.active">{{item.title}}</a>
-            </li>
-        </ul></div>
+        <div><app-navmenu></app-navmenu></div>
         <div><app-socials></app-socials></div>
         
         <!-- Menu Toggle Button -->
-        <div class="menu-toggle" (click)="isMenuOpen=!isMenuOpen">
+        <div class="menu-toggle" (click)="_toggleMenu()">
             <fa-icon [icon]="faBars" size="2x"></fa-icon>
         </div>
     </div>
 </div>
 <div id="header-height"></div>
-
-<mat-sidenav-container>
-    <mat-sidenav [(opened)]="isMenuOpen">
-        <div ><ul [ngClass]="{ 'active': isMenuOpen }">
-            <li *ngFor='let item of navList'>
-            <a [routerLink]="item.endpoint" [class.active]="item.active">{{item.title}}</a>
-            </li>
-        </ul></div>
-        
-        <div><app-socials></app-socials></div>
-    </mat-sidenav>
-</mat-sidenav-container>

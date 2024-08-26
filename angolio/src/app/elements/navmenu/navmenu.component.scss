@@ -1,0 +1,32 @@
+@import "../../../variables.scss";
+
+a {
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.horizontal {
+    ul {
+        display: flex;
+        justify-content: space-between;
+        padding-inline-end: 40px;
+        >li {
+            padding: 0px 15px;
+        }
+    }
+}
+
+.vertical {
+    font-size: 1.4rem;
+    ul {
+        display: flex;
+        flex-direction: column;
+        >li {
+            padding: 8px 0px;
+        }
+    }
+}
+
+.is-active{
+    color: $primary-color;
+}

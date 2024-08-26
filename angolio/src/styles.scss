@@ -98,6 +98,9 @@ a{
     &:hover,:active,:focus{
         color: $primary-color;
     }
+    &:-webkit-any-link:focus-visible {
+      outline: none;
+    }
 }
 
 html, body { height: 100%; }

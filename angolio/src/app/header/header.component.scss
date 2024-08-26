@@ -1,12 +1,12 @@
 @import "../../variables.scss";
 
 #header-height{
-    height: 100px;
+    height: 80px;
 }
 
 .container-header {
     background-color: $primary-background;
-    height: 100px;
+    height: 80px;
     align-content: center;
     display: flex;
     position: fixed;
@@ -37,21 +37,6 @@
     img {
         width: 48px;
     }
-
-    ul {
-        display: flex;
-        justify-content: space-between;
-        padding-inline-end: 40px;
-
-        >li {
-            padding: 0px 17px;
-
-            >a {
-                font-weight: 500;
-                text-transform: uppercase;
-            }
-        }
-    }
 }
 
 @media (max-width: 768px) {
@@ -62,22 +47,9 @@
             .menu-toggle {
                 display: flex; // Show menu toggle on mobile
                 }
-                .nav-menu, app-socials {
+                app-navmenu, app-socials {
                   display: none;
                 }
         }
     }
-}
-
-mat-sidenav-container {
-    height: 100%;
-    width: 100%;
-    position: fixed;
-    z-index: 15;
-    background-color: transparent;
-}
-
-mat-sidenav {
-    background-color: $primary-background;
-    border-radius: 0;
 }

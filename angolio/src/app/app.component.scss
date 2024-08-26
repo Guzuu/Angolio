@@ -1,0 +1,9 @@
+@import "../variables.scss";
+
+mat-sidenav-container {
+    background-color: transparent;
+}
+mat-sidenav {
+    background-color: $primary-background;
+    border-radius: 0;
+}

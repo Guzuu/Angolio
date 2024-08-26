@@ -31,3 +31,10 @@
         width: 48px;
     }
 }
+
+.container-copyright {
+    align-content: center;
+    text-align: center;
+    background-color: $primary-background;
+    border-top: 1px solid $secondary-background;
+}
