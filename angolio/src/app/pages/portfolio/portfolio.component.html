@@ -1,15 +1,75 @@
 <div class="page">
 
-    <app-imgtext [sectionHeader]="{ title: 'Portfolio'}"
-    [imagePath]="'/assets/images/AuthorCropped.png'" [alt]="'author holding laptop and skateboard'"></app-imgtext>
-    <app-list [sectionHeader]="{ title: 'Applications', text: 'Desktop, mobile, webAPIs' }" [list]="[
-    { title: 'Redo', text: 'I am creating a sports competition app designed for Android and iOS devices using Flutter technology. The API for this application is being developed in .NET CORE technology.' },
-    { title: 'SEBlueprintCalc', text: 'Tool calculating values for blueprints designed for the game Space Engineers. The tool automatically locates the game folder and updates the database from the game files.' },
-    { title: 'TrovePixelArtTool', text: 'Tool for converting graphic files into the so-called pixel art. It utilizes color matching technology with the highest resemblance.' }
+    <app-imgtext [sectionHeader]="{ title: 'Portfolio', text: 'Here, you can find my own projects small and big, as well as some projects Ive participated in'}" [imagePath]="'/assets/images/AuthorCropped.png'"
+        [alt]="'author holding laptop and skateboard'"></app-imgtext>
+    <app-list [sectionHeader]="{ title: 'My own applications', text: 'Desktop, mobile, webAPIs' }" [list]="[
+    { title: 'Redo', text: 'I am creating a sports competition app designed for Android and iOS devices using Flutter technology. The API for this application is being developed in .NET CORE technology.', imagePath: '/assets/images/logos/RedoSmallIcon.png', alt: 'Redo small icon', 
+    children: [
+            {imagePath: '/assets/images/logos/csharp.png', alt: 'c#'},
+            {imagePath: '/assets/images/logos/netcore.png', alt: '.NET Core'},
+            {imagePath: '/assets/images/logos/flutter.png', alt: 'flutter'},
+            {imagePath: '/assets/images/logos/railway.png', alt: 'railway.app logo'},
+            {imagePath: '/assets/images/logos/mysql.png', alt: 'mysql'},
+    ], },
+    { title: 'Space Engineers Blueprint Calc', text: 'Tool calculating values for blueprints designed for the game Space Engineers. The tool automatically locates the game folder and updates the database from the game files.', 
+    children: [
+            {imagePath: '/assets/images/logos/csharp.png', alt: 'c#'},
+    ], },
+    { title: 'Trove Pixel Art Tool', text: 'Tool for converting graphic files into the so-called pixel art. It utilizes color matching technology with the highest resemblance.', imagePath: '/assets/images/logos/PAT_icon.jpg', alt: 'pixel art tool icon', 
+    children: [
+            {imagePath: '/assets/images/logos/csharp.png', alt: 'c#'},
+    ], },
+    { title: 'WhatPass', text: 'Chrome extension and local api working together to store passwords and later autofill them when visiting the same site again', imagePath: '/assets/images/logos/whatPass.png', alt: 'whatpass logo',
+    children: [
+            {imagePath: '/assets/images/logos/csharp.png', alt: 'c#'},
+            {imagePath: '/assets/images/logos/netcore.png', alt: '.NET Core'},
+            {imagePath: '/assets/images/logos/js.png', alt: 'javascript logo'},
+            {imagePath: '/assets/images/logos/mysql.png', alt: 'mysql'},
+    ], }
     ]"></app-list>
-    <app-list [sectionHeader]="{ title: 'Websites', text: 'Websites made via various CMSes' }" [list]="[
-    { title: 'alternatywa-travel.pl', text: 'This website is dedicated to travel agency located near Mielec. They usually organize various camps for children in the middle of the forest with focus on bushcraft and independence skills' },
-    { title: 'wrotki-wywrotki.pl', text: 'The website, along with the store, is dedicated to two entertainment centers of the Wywrotki company in Mielec and Rzeszów. Wywrotki features play areas for children and roller rinks.' },
-    { title: 'artmar.eu', text: 'The website is dedicated to a small manufacturer of smokers, bbq-grills and furniture.' }
+    <app-list [sectionHeader]="{ title: 'Websites I designed', text: 'Websites made via various CMSes, some of the websites also required setting up a linux server' }" [list]="[
+    { title: 'alternatywa-travel.pl', text: 'This website is dedicated to travel agency located near Mielec. They usually organize various camps for children in the middle of the forest with focus on bushcraft and independence skills', imagePath: '/assets/images/logos/alternatywa-travel.png', alt: 'alternatywa travel', 
+    children: [
+            {imagePath: '/assets/images/logos/joomla!.png', alt: 'joomla!'},
+            {imagePath: '/assets/images/logos/mysql.png', alt: 'mysql'},
+    ],},
+    { title: 'wrotki-wywrotki.pl', text: 'The website, along with the store, is dedicated to two entertainment centers of the Wywrotki company in Mielec and Rzeszów. Wywrotki features play areas for children and roller rinks.', imagePath: '/assets/images/logos/wywrotki.png', alt: 'wrotkarnia wywrotki', 
+    children: [
+            {imagePath: '/assets/images/logos/wordpress.png', alt: 'wordpress'},
+            {imagePath: '/assets/images/logos/mysql.png', alt: 'mysql'},
+    ],  },
+    { title: 'artmar.eu', text: 'The website is dedicated to a small manufacturer of smokers, bbq-grills and furniture.', imagePath: '/assets/images/logos/artmar.png', alt: 'artmar.eu', 
+    children: [
+            {imagePath: '/assets/images/logos/wordpress.png', alt: 'wordpress'},
+            {imagePath: '/assets/images/logos/nginx.png', alt: 'nginx'},
+            {imagePath: '/assets/images/logos/mysql.png', alt: 'mysql'},
+            {imagePath: '/assets/images/logos/linux.png', alt: 'linux'},
+    ], },
+    { title: 'guzuucode.pl', text: 'This portfolio', imagePath: '/assets/images/GuzuuCodeSmall.png', alt: 'GuzuuCode small icon', 
+    children: [
+            {imagePath: '/assets/images/logos/angular.png', alt: 'angular'},
+            {imagePath: '/assets/images/logos/nginx.png', alt: 'nginx'},
+            {imagePath: '/assets/images/logos/mysql.png', alt: 'mysql'},
+            {imagePath: '/assets/images/logos/linux.png', alt: 'linux'},
+    ],  },
+    ]"></app-list>
+    <div class="image">
+        <app-list [list]="[
+    { title: 'Photoshop and Figma', text: 'I also design various types of digital graphics. Photoshop and Figma comes in really handy when making mockups for web development or logos for applications.', icon: faPaintBrush },
+    ]"></app-list>
+    </div>
+    <app-list [sectionHeader]="{ title: 'Projects Ive participated in', text: '' }" [list]="[
+    { title: 'mzdw.pl', text: '', imagePath: '/assets/images/logos/.png', alt: '', 
+    children: [
+            {imagePath: '/assets/images/logos/vuejs.png', alt: 'vue js logo'},
+            {imagePath: '/assets/images/logos/laravel.png', alt: 'laravel logo'},
+            {imagePath: '/assets/images/logos/nodejs.png', alt: 'nodejs logo'},
+    ],},
+    { title: 'czachauto.pl', text: '', imagePath: '/assets/images/logos/.png', alt: '', 
+    children: [
+            {imagePath: '/assets/images/logos/vuejs.png', alt: 'vue js logo'},
+            {imagePath: '/assets/images/logos/laravel.png', alt: 'laravel logo'},
+            {imagePath: '/assets/images/logos/nodejs.png', alt: 'nodejs logo'},
+    ],  },
     ]"></app-list>
 </div>

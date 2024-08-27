@@ -7,13 +7,6 @@
                 {{sectionHeader.text}}
             </p>
         </div>
-        <div class="tiles">
-            <div *ngFor='let item of tiles' class="tile">
-                <h3>{{item.title}}</h3>
-                <p>
-                    {{item.text}}
-                </p>
-            </div>
-        </div>
+        <app-tileselement [tiles]="tiles"></app-tileselement>
     </div>
 </div>

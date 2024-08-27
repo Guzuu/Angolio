@@ -1,6 +1,6 @@
 import { Component, Input } from '@angular/core';
-import { ITitleText } from '../tiles/tiles.component';
 import { NgIf, NgStyle } from '@angular/common';
+import { ITitleText } from '../../interfaces/ITitleText';
 
 @Component({
   selector: 'app-imgtext',

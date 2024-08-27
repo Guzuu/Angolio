@@ -27,7 +27,32 @@
             border-radius: 20px;
             box-shadow: 5px 5px 20px black;
             max-width: 100%;
+            display: flex;
+            justify-content: space-between;
             
+            @media (max-width: 768px) {
+                flex-direction: column;
+            }
+
+            >div {
+                align-content: center;
+                text-align: center;
+            }
+
+            .img-icon {
+                color: $primary-color;
+                margin-left: 40px;
+
+                @media (max-width: 768px) {
+                    margin-top: 40px;
+                    margin-left: 0;
+                }
+                img {
+                    width: 140px;
+                    border-radius: 10px;
+                }
+            }
+
             h3,p{
                 text-align: justify;
             }

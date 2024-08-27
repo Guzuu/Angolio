@@ -14,30 +14,6 @@
         .section-header {
             padding-bottom: 40px;
         }
-
-        .tiles {
-            display: flex;
-            gap: 50px;
-            flex-wrap: wrap;
-        }
-
-        .tile {
-            flex: 1 1 30%;
-            background-color: $primary-background;
-            padding: 40px;
-            border-radius: 20px;
-            box-shadow: 5px 5px 20px black;
-            max-width: 100%;
-            box-sizing: border-box;
-
-            h3{
-                
-                text-align: center;
-            }
-            p{
-                text-align: justify;
-            }
-        }
     }
 
 

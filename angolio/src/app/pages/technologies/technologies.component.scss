@@ -1,0 +1,12 @@
+@import "../../../variables.scss";
+
+.grid {
+    display: flex;
+    gap: 40px;
+}
+
+.cell {
+    background-color: $primary-background;
+    height: 200px;
+    width: 200px;
+}

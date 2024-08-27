@@ -8,11 +8,21 @@
             </p>
         </div>
         <div class="list">
-            <div *ngFor='let item of list' class="list-item">
-                <h3>{{item.title}}</h3>
-                <p>
-                    {{item.text}}
-                </p>
+            <div *ngFor='let item of list'>
+                <div class="list-item">
+                    <div>
+                        <h3>{{item.title}}</h3>
+                        <p>
+                            {{item.text}}
+                        </p>
+                    </div>
+                    <div class="img-icon">
+                        <img *ngIf="item.imagePath != null" [src]="item.imagePath" [alt]="item.alt">
+                        <fa-icon *ngIf="item.icon != null" [icon]="item.icon" size="4x"></fa-icon>
+                    </div>
+                </div>
+                <app-tileselement *ngIf="item.children != null" [tiles]="item.children" [isSubTiles]="true"
+                ></app-tileselement>
             </div>
         </div>
     </div>
