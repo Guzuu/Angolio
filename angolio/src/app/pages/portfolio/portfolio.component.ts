@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { TilesComponent } from '../../sections/tiles/tiles.component';
 import { ListComponent } from '../../sections/list/list.component';
 import { ImgtextComponent } from '../../sections/imgtext/imgtext.component';
-import { faPaintBrush } from '@fortawesome/free-solid-svg-icons';
+import { faPaintBrush, faCalculator } from '@fortawesome/free-solid-svg-icons';
 
 
 @Component({
@@ -14,4 +14,5 @@ import { faPaintBrush } from '@fortawesome/free-solid-svg-icons';
 })
 export class PortfolioComponent {
   faPaintBrush = faPaintBrush;
+  faCalculator = faCalculator;
 }

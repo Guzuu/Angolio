@@ -7,4 +7,5 @@ export interface ITitleText{
     title?: string;
     text?: string;
     children?: ITitleText[];
+    url?: string;
   }
