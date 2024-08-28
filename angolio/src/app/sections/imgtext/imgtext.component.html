@@ -1,12 +1,13 @@
 <div class="container">
     <div class="content">
         <div *ngIf="sectionHeader != null" class="section-header"
-        [ngStyle]="{'text-align': (headerCentered) ? 'center' : null}">
-        <h2>{{sectionHeader.title}}</h2>
-        <p>
-            {{sectionHeader.text}}
-        </p>
-    </div>
+            [ngStyle]="{'text-align': (headerCentered) ? 'center' : null}">
+            <h2>{{sectionHeader.title}}</h2>
+            <p>
+                {{sectionHeader.text}}
+            </p>
+        </div>
+        <app-button *ngIf="url != null" [url]="url!" [buttonText]="buttonText!"></app-button>
     </div>
     <div *ngIf="imagePath !== undefined" class="image">
         <img [src]="imagePath" [alt]="alt">

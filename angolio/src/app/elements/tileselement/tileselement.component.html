@@ -1,4 +1,4 @@
-<div [ngClass]="isSubTiles ? 'subTiles' : 'tiles'">
+<div *ngIf="isSubTiles; else standardTiles" class="subTiles">
     <div *ngFor='let item of tiles' class="tile">
         <img *ngIf="item.imagePath != null" [src]="item.imagePath" [alt]="item.alt">
         <h3>{{item.title}}</h3>
@@ -7,3 +7,14 @@
         </p>
     </div>
 </div>
+<ng-template #standardTiles>
+    <div class="tiles">
+        <div *ngFor='let item of tiles' class="tile" [ngStyle]="{'flex': '1 1 ' + percentage + '%'}">
+            <img *ngIf="item.imagePath != null" [src]="item.imagePath" [alt]="item.alt">
+            <h3>{{item.title}}</h3>
+            <p *ngIf="item.text != null">
+                {{item.text}}
+            </p>
+        </div>
+    </div>
+</ng-template>

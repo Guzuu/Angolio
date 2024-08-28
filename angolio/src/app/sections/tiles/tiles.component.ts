@@ -16,6 +16,7 @@ export class TilesComponent {
   @Input() headerCentered: boolean = false;
   @Input() sectionHeader!: ITitleText;
   @Input() tiles!: ITitleText[];
+  @Input() percentage = 18;
 
   constructor() { }
 }

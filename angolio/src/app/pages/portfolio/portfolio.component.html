@@ -1,7 +1,7 @@
 <div class="page">
 
         <app-imgtext
-                [sectionHeader]="{ title: 'Portfolio', text: 'Here, you can find my own projects small and big, as well as some projects Ive participated in'}"
+                [sectionHeader]="{ title: 'Portfolio', text: 'Here, you can find my own projects small and big, as well as some projects I’ve participated in'}"
                 [imagePath]="'/assets/images/AuthorCropped.png'"
                 [alt]="'author holding laptop and skateboard'"></app-imgtext>
         <app-list [sectionHeader]="{ title: 'My own applications', text: 'Desktop, mobile, webAPIs' }" [list]="[
@@ -87,4 +87,19 @@
     ], 
     url: 'https://czachauto.pl/' },
     ]"></app-list>
+        
+    <app-tiles
+    [sectionHeader]="{ title: 'Other skills', text: 'Here are some other skills I gathered along the way' }"
+    [tiles]="[
+    {title: 'Writing clean code', text: 'I did’nt really pay attention to my code quality untill I had to come back to a project some time later on. Now I try my best to keep my code organized'},
+    {title: 'Implementing design patterns', text: 'Design patterns help shorten the codebase while keeping things nicely organized'},
+    {title: 'Project planning charts', text: 'The bigger the project, the more planning and consideration should go into it.'},
+    {title: 'Server management', text: 'In highschool I learned some basics of this topic. Today I keep learning to be able to deploy my own software and other services to my own hardware.'},
+    {title: 'Network management', text: 'From port forwarding to dhcp, vlans and firewall rules. It’s essential to know this stuff for server service deployment to the internet and resolving common issues.'},
+    {title: 'Video editing', text: 'To showcase my skills or create a tutorial video, editing film has been very usefull skill in all the business branches'},
+    {title: 'Simple electronics soldering', text: 'Sometimes it’s just a bad capacitor or connector. Replacing it myself saved me a lot of money. Sometimes it’s just connecting wires.'},
+    {title: 'Computer maintenance and rapairs', text: 'When It comes to computers, especially windows based I can’t count how many times I’ve dealt with some issues whether it was a software or a hardware problem.'},
+    ]"
+    [percentage]="30"
+    ></app-tiles>
 </div>

@@ -1,1 +1,19 @@
-<div class="page"><p>whenafk works!</p></div>
+<div class="page">
+        <div class="container">
+            <div class="content">
+                <div class="section-header">
+                    <h2>When away from keyboard</h2>
+                    <p>
+                        Writing the code can be engaging for couple of hours which means I’m also in a sitting possition for long periods of time. As my other hobby and to stay fit, I often skate
+                    </p>
+                </div>
+                <div class="videoplayer">
+                    <iframe width="458" height="815" src="https://www.youtube.com/embed/?autoplay=1&mute=1&?listType=playlist&list=PLh0_xCHV5gIVUyM1OCAsjsdB11sk-MKKy" title="Showcase clips" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>    
+            </div>
+        </div>
+        <app-list [list]="[
+    { title: 'Teaching new generation', text: 'As a side form of income and out of passion, I’m also teaching young people how to skateboard. Together with local skateboarding school, sk8school we are hosting group lessons as well as individual ones', imagePath: '/assets/images/logos/sk8school.jpg', alt: 'sk8school logo',  
+    url: 'https://www.sk8school.pl/'},
+    ]"></app-list>
+</div>
