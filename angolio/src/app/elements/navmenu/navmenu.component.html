@@ -1,5 +1,6 @@
 <div [ngClass]="vertical ? 'vertical' : 'horizontal'"><ul>
     <li *ngFor='let item of navList'>
-    <a [routerLink]="item.endpoint" [routerLinkActive]="'is-active'" [routerLinkActiveOptions]="{ exact: true }">{{item.title}}</a>
+    <a (click)="navigateToSection(item.sectionId)" 
+    [ngClass]="{'is-active': currentFragment === item.sectionId}">{{ item.key | translate }}</a>
     </li>
 </ul></div>

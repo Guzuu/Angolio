@@ -1,0 +1,192 @@
+{
+  "NAV": {
+    "WELCOME": "Witaj",
+    "PORTFOLIO": "Portfolio",
+    "TECHNOLOGIES": "Technologie",
+    "CONTACT": "Kontakt",
+    "WHEN_AFK": "Kiedy AFK"
+  },
+  "HOME": {
+    "WELCOME": {
+      "TITLE": "Mateusz Guz",
+      "TEXT": "Cześć, witaj na mojej stronie którą zaprojektowałem w angularze, zahostowanej na serwerze, który postawiłem, na maszynie, którą złożyłem, podłączonej do routera, którego skonfigurowałem. Ta strona jest dosyć prosta więc sprawdź moje inne oprogramowanie."
+    },
+    "PORTFOLIO": {
+      "TEXT": "Znajdziesz tutaj moje małe i duże projekty, jak i projekty, w których brałem udział",
+      "OWNAPPS": {
+        "TITLE": "Moje aplikacje",
+        "TEXT": "Desktopowe, mobilne, webAPI",
+        "RD": {
+          "TEXT": "Tworzę aplikację do rozgrywek sportowych na urządzenia Android oraz IOS przy pomocy technologii Flutter. API dla tej aplikacji zostało stworzone w .NET CORE."
+        },
+        "SEBPC": {
+          "TEXT": "Narzędzie służące do obliczania wartości schematów. Zaprojektowany dla gry Space Engineers. Narzędzie automatycznie znajduje folder z grą i aktualizuje swoją bazę danych posiłkując się danymi gry."
+        },
+        "TPAT": {
+          "TEXT": "Narzędzie służące do konwertowania plików obrazów na tzw. pixel arty. W narzędziu zaimplementowany jest algorytm dopasowywania kolorów z największą dokładnością."
+        },
+        "WP": {
+          "TEXT": "Rozszerzenie do przeglądarki chrome pozwalające na zbieranie haseł i zapisywanie ich w lokalnym API. Hasła są automatycznie używane w przypadku ponownego odwiedzenia tej samej strony."
+        }
+      },
+      "OWNWEBS": {
+        "TITLE": "Strony www i aplikacje webowe, które stworzyłem",
+        "TEXT": "Strony stworzone za pomocą różnych systemów CMS oraz różnych technologii. Niektóre z tych stron wymagały stworzenia całego zaplecza hostingowego.",
+        "GCPL": {
+          "TEXT": "To portfolio. Stworzone zostało również w celach edukacyjnych tj. nauki angulara."
+        },
+        "ATPL": {
+          "TEXT": "Ta strona została stworzona dla biura podróży leśnych dla dzieci i młodzieży. Zlokalizowane jest ono koło Mielca. Projekt został wykonany w Figmie a następnie wdrożony do systemu Joomla!."
+        },
+        "WWPL": {
+          "TEXT": "Ta strona została stworzona dla centr rozrywki oraz torów wrotkarskich WyWrotki z siedzibą w Rzeszowie oraz Mielcu. Stworzona przy użyciu wordpress. Strona posiada zintegrowany sklep oraz system biletów na wydarzenia."
+        },
+        "AMEU": {
+          "TEXT": "Ta strona została stworzona dla rzemieślnika i producenta grilli, wędzarni oraz mebli. Strona stworzona przy użyciu wordpress."
+        }
+      },
+      "DESIGN": {
+        "TITLE": "Photoshop i Figma",
+        "TEXT": "Tworzę również różnego rodzaju grafiki komputerowe. Photoshop i Figma przydają się kiedy potrzebuję stworzyć prototyp layoutu czy logotypu dla aplikacji."
+      },
+      "OTHERPROJ": {
+        "TITLE": "Projekty, w których brałem udział",
+        "TEXT": "Poprzez różne praktyki byłem częścią wielu średniej wielkości projektów.",
+        "MZDW": {
+          "TEXT": "Ten projekt wymagał ode mnie stworzenia menu i podstron biuletynu informacji publicznych. Musiałem się upewnić że menu funkcjonuje dynamicznie, z uwzględnieniem poprawnej hierarchii nawigacji. Poza tym, pracowałem nad kilkoma stronami, przyciskami oraz poprawkami."
+        },
+        "DRCZACH": {
+          "TEXT": "W tym projekcie zostałem poproszony o zaimplementowanie wielu różnych poprawek interfejsu strony jak i interfejsu panelu admina. Pracowałem nad stroną produktową i naprawiłem problemy z paginacją."
+        }
+      },
+      "OTHERSKILLS": {
+        "TITLE": "Inne umiejętności",
+        "TEXT": "Oto niektóre inne umiejętności, które zdobyłem po drodze",
+        "SKILLS": {
+          "CLEANCODE": {
+            "TITLE": "Pisanie czystego kodu",
+            "TEXT": "Nie zwracałem wcześniej uwagi na jakość mojego kodu, dopóki nie musiałem wrócić do projektu po pewnym czasie. Teraz staram się jak najlepiej uporządkowywać swój kod."
+          },
+          "PATTERNS": {
+            "TITLE": "Stosowanie wzorców projektowych",
+            "TEXT": "Wzorce projektowe pomagają skrócić bazę kodu, jednocześnie uporządkowując rzeczy w odpowiedniej hierarchii"
+          },
+          "PLANNING": {
+            "TITLE": "Plany projektowe",
+            "TEXT": "Im większy projekt, tym więcej planowania i rozważenia powinno zostać w niego włożone."
+          },
+          "SERVERS": {
+            "TITLE": "Zarządzanie serwerami",
+            "TEXT": "W szkole średniej nauczyłem się podstaw zarządzania serwerem. Obecnie nadal się uczę, aby móc wdrażać własne oprogramowanie i inne usługi na własnym sprzęcie."
+          },
+          "NETWORK": {
+            "TITLE": "Zarządzanie siecią",
+            "TEXT": "Od przekierowania portów po DHCP, VLAN-y i reguły zapory ogniowej. Przydatne jest znanie tych rzeczy przy wdrażaniu usług serwerowych oraz rozwiązywaniu typowych problemów."
+          },
+          "VIDEO": {
+            "TITLE": "Edycja wideo",
+            "TEXT": "Aby zaprezentować swoje umiejętności lub stworzyć film instruktażowy, edycja wideo okazała się bardzo przydatną umiejętnością we wszystkich gałęziach biznesu."
+          },
+          "PCTECH": {
+            "TITLE": "Konserwacja i naprawa komputerów",
+            "TEXT": "Jeśli chodzi o komputery, zwłaszcza te oparte na systemie Windows, nie jestem w stanie zliczyć, ile razy musiałem radzić sobie z jakimiś problemami, czy to z oprogramowaniem, czy problemami sprzętowymi."
+          },
+          "SOLDER": {
+            "TITLE": "Proste lutowanie elektroniki",
+            "TEXT": "Czasami to tylko uszkodzony kondensator lub złącze. Samodzielna wymiana pozwala mi zaoszczędzić sporo pieniędzy. Głównie jednak łącze różne przewody."
+          }
+        }
+      }
+    },
+    "TECH": {
+      "TITLE": "Technologie",
+      "TEXT": "Technologie, które znam i których używałem w różnych projektach."
+    },
+    "CONTACT": {
+      "TEXT": "Zapraszam do kontaktu przez e-mail, niezależnie od tego, czy chcesz omówić nowe pomysły, czy masz na myśli nowy projekt. Odpowiem na Twoją wiadomość niezwłocznie."
+    },
+    "WHENAFK": {
+      "TITLE": "Kiedy z dala od klawiatury",
+      "TEXT": "Pisanie kodu może być angażujące przez kilka godzin, co oznacza, że również przez długi czas jestem w pozycji siedzącej. Jako hobby, a także aby zachować formę, często jeżdżę na deskorolce.",
+      "SK8SCHOOL": {
+        "TITLE": "Szkolenie nowego deskorolkowego pokolenia",
+        "TEXT": "Jako dodatkowa forma dochodu jak i z pasji, uczę młodych ludzi, jak jeździć na deskorolce. Wraz z lokalną szkółką deskorolki sk8school prowadzimy lekcje grupowe oraz indywidualne."
+      }
+    }
+  },
+  "REDO": {
+    "TITLE": "Pierwsza tego typu gra w skate lub cokolwiek innego na świecie!",
+    "TEXT": "Załóż grę, poczekaj na dołączenie graczy lub wymuś rozpoczęcie gry. Każda faza gry jest ograniczona czasowo, więc nie utkniesz, jeśli ktoś będzie nieaktywny. Ustaw triki, głosuj na próby innych graczy, powtarzaj triki, a nawet rozmawiaj w trakcie gry. Opuść grę w dowolnym momencie. Wygraj lub przegraj.",
+    "CHAT": {
+      "TITLE": "Graj i rozmawiaj w czasie rzeczywistym!",
+      "TEXT": "Rozmawiaj z innymi graczami podczas gry!"
+    },
+    "CATEGORIES": {
+      "TITLE": "Niezależnie od tego, czym jeździsz!",
+      "TEXT": "Czy jeździsz na deskorolce, hulajnodze, a może na BMX-ie? Aplikacja jest otwarta dla każdego!"
+    },
+    "THEMES": {
+      "TITLE": "Ciemne i jasne motywy",
+      "TEXT": "Czy potrzebujesz wysokiego kontrastu, czy białe światło razi Cię w oczy? Wbudowany motyw kolorystyczny aplikacji pozwala na wybór między dwoma!"
+    },
+    "JOINTEST": "Dołącz do zamkniętych testów",
+    "PRIVACYPOLICY": {
+      "TITLE": "Polityka prywatności",
+      "EFFDATE": "Data wejścia w życie: 23.01.2024",
+      "ENTRY": "GuzuuCode („my”, „nas”, „nasz”) obsługuje aplikację mobilną Redo („Aplikacja”). Ta strona informuje o naszych zasadach dotyczących zbierania, używania i ujawniania danych osobowych podczas korzystania z naszej aplikacji oraz o wyborach, które masz w związku z tymi danymi.",
+      "ENSURE": "Zobowiązujemy się do zapewnienia ochrony Twojej prywatności. Jeśli poprosimy Cię o podanie określonych informacji, na podstawie których można Cię zidentyfikować podczas korzystania z tej aplikacji, możesz być pewien, że będą one używane wyłącznie zgodnie z niniejszym oświadczeniem o prywatności.",
+      "COLLINFO": "Zbieranie i używanie informacji",
+      "ACCCREAT": {
+        "TITLE": "Tworzenie konta",
+        "TEXT": "Podczas tworzenia konta w Redo możemy zbierać następujące informacje:",
+        "USERNAME": "Nazwa użytkownika:",
+        "TOPERSONALIZE": "Aby spersonalizować Twoje doświadczenia i ułatwić komunikację w aplikacji.",
+        "EMAIL": "Adres e-mail:",
+        "VERIFICATION": "W celach weryfikacji konta i komunikacji.",
+        "ADDITION": "Te informacje są używane wyłącznie w celu zapewnienia Ci dostępu do aplikacji Redo i jej funkcji."
+      },
+      "VIDUPL": {
+        "TITLE": "Przesyłanie wideo i awatara profilu",
+        "TEXT": "Redo pozwala użytkownikom przesyłać pliki wideo i ustawiać awatar profilu. Pamiętaj, że przesłane pliki wideo i awatary profilu będą widoczne dla innych użytkowników Redo, ponieważ te funkcje mają na celu zwiększenie interakcji społecznych w aplikacji."
+      },
+      "DATA": {
+        "TITLE": "Udostępnianie danych",
+        "TEXT": "Redo nie udostępnia żadnych danych użytkowników, w tym danych osobowych, stronom trzecim. Twoje dane są bezpiecznie przechowywane i przetwarzane w granicach aplikacji Redo."
+      },
+      "PUBLICCONTENT": {
+        "TITLE": "Publicznie udostępniane treści",
+        "TEXT": "Pamiętaj, że wszystkie przesłane przez Ciebie filmy i awatary profilu w Redo są uznawane za treści publiczne i mogą być widoczne dla innych użytkowników aplikacji. Bądź ostrożny i udostępniaj tylko te treści, które chcesz, aby były publiczne."
+      },
+      "PROFDEL": {
+        "TITLE": "Usunięcie profilu użytkownika",
+        "TEXT": "Użytkownicy mają możliwość usunięcia swoich profili w aplikacji. Gdy użytkownik usuwa swój profil, następują następujące działania:",
+        "ADDITION": "To zapewnia, że Twoje dane osobowe zostaną usunięte z widoku publicznego, a dostęp do Twojego konta zostanie zablokowany."
+      },
+      "SECURITY": {
+        "TITLE": "Bezpieczeństwo",
+        "TEXT": "Zobowiązujemy się do zapewnienia bezpieczeństwa Twoich informacji. Aby zapobiec nieautoryzowanemu dostępowi lub ujawnieniu, wdrożyliśmy odpowiednie procedury fizyczne, elektroniczne i zarządcze, aby zabezpieczyć i chronić informacje, które zbieramy online."
+      },
+      "CHANGES": {
+        "TITLE": "Zmiany w niniejszej polityce prywatności",
+        "TEXT": "Możemy od czasu do czasu aktualizować naszą Politykę prywatności. Dlatego radzimy okresowo przeglądać tę stronę w celu zapoznania się z ewentualnymi zmianami. Powiadomimy Cię o wszelkich zmianach, publikując nową Politykę prywatności na tej stronie. Zmiany te wchodzą w życie natychmiast po ich opublikowaniu na tej stronie."
+      }
+    },
+    "H2DELETEPROF": {
+      "TITLE": "Usuń profil",
+      "TITLEFULL": "Jak usunąć profil w aplikacji Redo",
+      "DELPROF": {
+        "TITLE": "Aby usunąć profil, wystarczy:",
+        "NAVIGATE": "przejść do ustawień swojego profilu,",
+        "SCROLL": "przewinąć w dół,",
+        "PRESS": "naciśnąć czerwony przycisk z ikoną kosza,",
+        "CONFIRM": "potwierdzić swoje hasło,",
+        "PRESSDEL": "naciśnąć przycisk usuń"
+      },
+      "HAPPENS": {
+        "TITLE": "Co się dzieje, gdy usuwam swój profil?",
+        "DATA": "Publiczne dane, które mogłyby zidentyfikować osobę (z wyłączeniem przesłanych plików wideo), są usuwane z naszego systemu.",
+        "ACCOUNT": "Konto jest blokowane, uniemożliwiając dalszy dostęp."
+      }
+    }
+  }
+}

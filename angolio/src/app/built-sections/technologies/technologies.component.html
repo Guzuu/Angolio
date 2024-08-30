@@ -1,5 +1,9 @@
 <div class="page">
     <app-tiles
+    [sectionHeader]="{
+        title: 'HOME.TECH.TITLE' | translate,
+        text: 'HOME.TECH.TEXT' | translate,
+      }"
             [tiles]="[
             {imagePath: '/assets/images/logos/csharp.png', alt: 'c# logo'},
             {imagePath: '/assets/images/logos/netcore.png', alt: '.NET Core logo'},
@@ -11,6 +15,7 @@
             {imagePath: '/assets/images/logos/dart.png', alt: 'dart logo'},
             {imagePath: '/assets/images/logos/xamarin.png', alt: 'xamarin logo'},
             {imagePath: '/assets/images/logos/web.png', alt: 'web elements logo'},
+            {imagePath: '/assets/images/logos/postman.png', alt: 'postman logo'},
             {imagePath: '/assets/images/logos/angular.png', alt: 'angular logo'},
             {imagePath: '/assets/images/logos/vuejs.png', alt: 'vuejs logo'},
             {imagePath: '/assets/images/logos/wordpress.png', alt: 'wordpress.org logo'},
@@ -20,7 +25,10 @@
             {imagePath: '/assets/images/logos/vs.png', alt: 'visual studio logo'},
             {imagePath: '/assets/images/logos/nginx.png', alt: 'nginx logo'},
             {imagePath: '/assets/images/logos/nodejs.png', alt: 'nodejs logo'},
+            {imagePath: '/assets/images/logos/ea.png', alt: 'enterprise architect logo'},
             {imagePath: '/assets/images/logos/vmware.png', alt: 'vmware logo'},
+            {imagePath: '/assets/images/logos/figma.png', alt: 'figma logo'},
+            {imagePath: '/assets/images/logos/labview.png', alt: 'labview logo'},
             ]"
             ></app-tiles>
 </div>

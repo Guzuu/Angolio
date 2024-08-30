@@ -69,6 +69,9 @@ body{
   h3 {
     font-size: 2rem;
   }
+  h4 {
+    font-size: 1.75rem;
+  }
 
   p {
     font-size: 1.25rem;
@@ -98,9 +101,6 @@ a, .menu-toggle{
     &:hover,:active,:focus{
         color: $primary-color;
     }
-    &:-webkit-any-link:focus-visible {
-      outline: none;
-    }
 }
 
 html, body { height: 100%; }
@@ -119,3 +119,10 @@ mat-sidenav-container {
   
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+:-webkit-any-link:focus-visible, :focus-visible {
+  outline: none;
+}

@@ -2,7 +2,7 @@
     <div class="content">
         <div *ngIf="sectionHeader != null" class="section-header"
             [ngStyle]="{'text-align': (headerCentered) ? 'center' : null}">
-            <h2>{{sectionHeader.title}}</h2>
+            <h3>{{sectionHeader.title}}</h3>
             <p>
                 {{sectionHeader.text}}
             </p>
@@ -12,7 +12,7 @@
                 <a *ngIf="item.url; else noLink" [href]="item.url" [target]="item.url.includes('http') ? '_blank' : '_self'">
                     <div class="list-item">
                         <div>
-                            <h3>{{item.title}}</h3>
+                            <h4>{{item.title}}</h4>
                             <p>
                                 {{item.text}}
                             </p>
@@ -26,7 +26,7 @@
                 <ng-template #noLink>
                     <div class="list-item">
                         <div>
-                            <h3>{{item.title}}</h3>
+                            <h4>{{item.title}}</h4>
                             <p>
                                 {{item.text}}
                             </p>

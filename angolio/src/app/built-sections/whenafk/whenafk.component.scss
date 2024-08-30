@@ -17,16 +17,21 @@
             padding-right: 6vw;
         }
         .videoplayer {
+            background-color: $primary-background;
             border-radius: 20px;
             overflow: hidden;
             height: 814px;
             width: 458px;
             box-shadow: 5px 5px 15px $primary-background;
-            align-self: center;
         }
 
         @media (max-width: 768px) {
             flex-direction: column;
+            text-align: center;
+            align-items: center;
+            .section-header {
+                padding-right: 0;
+            }
         }
     }
 }

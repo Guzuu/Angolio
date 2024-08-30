@@ -1,10 +1,91 @@
-<div class="page"><app-imgtext
-        [sectionHeader]="{ title: 'First of it’s kind. Real game of skate or anything around the world!', text: 'Set up a game, wait for players to join or force start the game. Each game phase is timed so you wont get stuck in case someone is inactive. Set tricks, vote on other player attempts, repeat tricks and even chat during the game. Leave game in any moment you want. Win or lose.' }"></app-imgtext>
-</div>
-<div class="page"><app-imgtext
-        [sectionHeader]="{ title: 'Play and chat in real time!', text: 'Chat with other players during the game!' }"
-        [imagePath]="'/assets/images/AuthorCropped.png'" [alt]="'author holding laptop and skateboard'"></app-imgtext>
-</div>
-<div class="page"><app-imgtext
-        [sectionHeader]="{ title: 'Whatever you ride!', text: 'Do you skate or scoot? Or maybe you ride BMX? App is open for anyone!' }"></app-imgtext>
+<div class="page">
+  <section>
+    <img src="/assets/images/redo/redoBanner.png" alt="" />
+    <app-imgtext
+      [sectionHeader]="{
+        title: 'REDO.TITLE' | translate,
+        text: 'REDO.TEXT' | translate,
+      }"
+    >
+    </app-imgtext>
+    <app-imgtext
+      [sectionHeader]="{
+        title: 'REDO.CHAT.TITLE' | translate,
+        text: 'REDO.CHAT.TEXT' | translate,
+      }"
+      [backgroundImg]="false"
+      [images]="[
+        {
+          imagePath: '/assets/images/redo/chat.png',
+          alt: 'phone screenshot of app showing in app chat',
+          width: 250,
+          boxed: true
+        }
+      ]"
+    >
+    </app-imgtext>
+    <app-imgtext
+      [sectionHeader]="{
+        title: 'REDO.CATEGORIES.TITLE' | translate,
+        text: 'REDO.CATEGORIES.TEXT' | translate,
+      }"
+      [backgroundImg]="false"
+      [reversed]="true"
+      [images]="[
+        {
+          imagePath: '/assets/images/redo/whateveryouride.png',
+          alt: 'phone screenshot of app showing categories',
+          width: 250,
+          boxed: true
+        }
+      ]"
+      >>
+    </app-imgtext>
+    <app-imgtext
+      [sectionHeader]="{
+        title: 'REDO.THEMES.TITLE' | translate,
+        text: 'REDO.THEMES.TEXT' | translate,
+      }"
+      [backgroundImg]="false"
+      [images]="[
+        {
+          imagePath: '/assets/images/redo/light.png',
+          alt: 'phone screenshot of app showing dark and light themes',
+          width: 250,
+          boxed: true
+        },
+        {
+          imagePath: '/assets/images/redo/dark.png',
+          alt: 'chat',
+          width: 250,
+          boxed: true
+        }
+      ]"
+    >
+    </app-imgtext>
+    <div class="container">
+      <div class="content">
+        <ul>
+          <li>
+            <app-button
+              [url]="'assets/BecomeTester.pdf'"
+              [buttonText]="'REDO.JOINTEST' | translate"
+            ></app-button>
+          </li>
+          <li>
+            <app-button
+              [url]="'redo/privacy-policy'"
+              [buttonText]="'REDO.PRIVACYPOLICY.TITLE' | translate"
+            ></app-button>
+          </li>
+          <li>
+            <app-button
+              [url]="'redo/account-deletion'"
+              [buttonText]="'REDO.H2DELETEPROF.TITLE' | translate"
+            ></app-button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
 </div>

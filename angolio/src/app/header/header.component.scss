@@ -22,12 +22,18 @@
             align-content: center;
         }
 
+        .right-side {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+        }
+
         .menu-toggle {
             display: none; // Hidden by default
             flex-direction: column;
             justify-content: center;
             cursor: pointer;
-          }
+        }
     }
 
     img {
@@ -43,7 +49,7 @@
             .menu-toggle {
                 display: flex; // Show menu toggle on mobile
                 }
-                app-navmenu, app-socials {
+                app-navmenu, app-language-switch, app-socials {
                   display: none;
                 }
         }

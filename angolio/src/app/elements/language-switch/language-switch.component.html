@@ -1,0 +1,12 @@
+<div class="language-switch">
+    <button class="selected-language" (click)="toggleDropdown()">
+        <fa-icon [icon]="faLanguage" size="2x"></fa-icon>
+        {{ getSelectedLanguage() }}
+        <span [ngClass]="{'arrow-up': isDropdownOpen, 'arrow-down': !isDropdownOpen}"></span>
+      </button>
+      <ul class="language-dropdown" *ngIf="isDropdownOpen">
+        <li *ngFor="let lang of languages" (click)="switchLanguage(lang) ">
+            {{ lang }}
+        </li>
+      </ul>
+</div>

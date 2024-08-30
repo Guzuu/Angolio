@@ -1,18 +1,27 @@
-<app-header (toggleMenu)="toggleMenu()"></app-header>
+<header><app-header (toggleMenu)="toggleMenu()"></app-header></header>
 <mat-sidenav-container>
-    <mat-sidenav [(opened)]="isMenuOpen" mode="push">
-        <div>
-            <app-navmenu [vertical]="true"></app-navmenu>
-
-            <ul>
-                <li>
-                    <app-socials></app-socials>
-                </li>
-            </ul>
-        </div>
-    </mat-sidenav>
-    <mat-sidenav-content>
-        <router-outlet></router-outlet>
-    </mat-sidenav-content>
+  <!-- Add the template reference variable #sidenav here -->
+  <mat-sidenav #sidenav [(opened)]="isMenuOpen" mode="push">
+    <div>
+      <app-navmenu
+        [vertical]="true"
+        (navItemClicked)="closeSidenav()"
+      ></app-navmenu>
+      <hr>
+      <ul>
+        <li>
+          <app-socials></app-socials>
+        </li>
+        <li>
+          <app-language-switch></app-language-switch>
+        </li>
+      </ul>
+    </div>
+  </mat-sidenav>
+  <mat-sidenav-content>
+    <router-outlet></router-outlet>
+  </mat-sidenav-content>
 </mat-sidenav-container>
-<app-footer></app-footer>
+<footer>
+  <app-footer></app-footer>
+</footer>

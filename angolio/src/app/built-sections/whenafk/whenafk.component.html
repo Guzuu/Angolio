@@ -2,9 +2,9 @@
         <div class="container">
             <div class="content">
                 <div class="section-header">
-                    <h2>When away from keyboard</h2>
+                    <h2>{{ 'HOME.WHENAFK.TITLE' | translate }}</h2>
                     <p>
-                        Writing the code can be engaging for couple of hours which means I’m also in a sitting possition for long periods of time. As my other hobby and to stay fit, I often skate
+                        {{ 'HOME.WHENAFK.TEXT' | translate }}
                     </p>
                 </div>
                 <div class="videoplayer">
@@ -13,7 +13,7 @@
             </div>
         </div>
         <app-list [list]="[
-    { title: 'Teaching new generation', text: 'As a side form of income and out of passion, I’m also teaching young people how to skateboard. Together with local skateboarding school, sk8school we are hosting group lessons as well as individual ones', imagePath: '/assets/images/logos/sk8school.jpg', alt: 'sk8school logo',  
+    { title: 'HOME.WHENAFK.SK8SCHOOL.TITLE' | translate, text: 'HOME.WHENAFK.SK8SCHOOL.TEXT' | translate, imagePath: '/assets/images/logos/sk8school.jpg', alt: 'sk8school logo',  
     url: 'https://www.sk8school.pl/'},
     ]"></app-list>
 </div>

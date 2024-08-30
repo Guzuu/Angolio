@@ -1,0 +1,60 @@
+@import "../../../variables.scss";
+
+.language-switch {
+  position: relative;
+  display: flex;
+  color: $primary-content;
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: 700;
+
+  .selected-language {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 1rem;
+    font-weight: 700;
+    color: $primary-content;
+    background-color: transparent;
+    text-transform: uppercase;
+    padding: 0;
+    cursor: pointer;
+    border: none;
+    &:hover {
+        color: $primary-color;
+      }
+  }
+
+  .language-dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    padding: 0;
+    width: 100%;
+    border-top: none;
+    transition: max-height 0.3s ease;
+    z-index: 30;
+    box-shadow: 5px 5px 15px black;
+    border-radius: 0 0 10px 10px;
+    background-color: $primary-background;
+    border-top: 2px solid black;
+    width: fit-content;
+
+    li {
+      cursor: pointer;
+      border-bottom: 1px solid $primary-content;
+      padding: 10px;
+      margin: 0 10px;
+      &:hover {
+        color: $primary-color;
+      }
+      &:last-child {
+        border-bottom: none;
+      }
+    }
+  }
+
+  .language-dropdown.ng-enter {
+    max-height: 200px; /* Adjust based on the number of items */
+  }
+}

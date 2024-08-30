@@ -1,29 +1,17 @@
-<div class="page"><app-imgtext
-        [sectionHeader]="{ title: 'Mateusz Guz', text: 'Hello, welcome to my webpage I designed and coded, running on the server I set up, on the machine I assembled, connected to the router I configured. This website is pretty simple so check out my other software' }"
-        [imagePath]="'/assets/images/AuthorCropped.png'" [alt]="'author holding laptop and skateboard'"
-        [url]="'portfolio'" [buttonText]="'Portfolio'"></app-imgtext>
-        <app-tiles
-            [tiles]="[
-            {imagePath: '/assets/images/logos/csharp.png', alt: 'c# logo'},
-            {imagePath: '/assets/images/logos/netcore.png', alt: '.NET Core logo'},
-            {imagePath: '/assets/images/logos/cpp.png', alt: 'c++ logo'},
-            {imagePath: '/assets/images/logos/git.png', alt: 'git source control logo'},
-            {imagePath: '/assets/images/logos/mysql.png', alt: 'mysql logo'},
-            {imagePath: '/assets/images/logos/laravel.png', alt: 'laravel logo'},
-            {imagePath: '/assets/images/logos/flutter.png', alt: 'flutter logo'},
-            {imagePath: '/assets/images/logos/dart.png', alt: 'dart logo'},
-            {imagePath: '/assets/images/logos/xamarin.png', alt: 'xamarin logo'},
-            {imagePath: '/assets/images/logos/web.png', alt: 'web elements logo'},
-            {imagePath: '/assets/images/logos/angular.png', alt: 'angular logo'},
-            {imagePath: '/assets/images/logos/vuejs.png', alt: 'vuejs logo'},
-            {imagePath: '/assets/images/logos/wordpress.png', alt: 'wordpress.org logo'},
-            {imagePath: '/assets/images/logos/joomla!.png', alt: 'joomla! logo'},
-            {imagePath: '/assets/images/logos/linux.png', alt: 'linux logo'},
-            {imagePath: '/assets/images/logos/vsc.png', alt: 'visual studio code logo'},
-            {imagePath: '/assets/images/logos/vs.png', alt: 'visual studio logo'},
-            {imagePath: '/assets/images/logos/nginx.png', alt: 'nginx logo'},
-            {imagePath: '/assets/images/logos/nodejs.png', alt: 'nodejs logo'},
-            {imagePath: '/assets/images/logos/vmware.png', alt: 'vmware logo'},
-            ]"
-            ></app-tiles>
+<div class="page">
+  <section id="welcome">
+    <app-welcome></app-welcome>
+  </section>
+  <section id="portfolio">
+    <app-portfolio></app-portfolio>
+  </section>
+  <section id="technologies">
+    <app-technologies></app-technologies>
+  </section>
+  <section id="contact">
+    <app-contact></app-contact>
+  </section>
+  <section id="when-afk">
+    <app-whenafk></app-whenafk>
+  </section>
 </div>

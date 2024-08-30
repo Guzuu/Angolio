@@ -1,5 +1,17 @@
 @import "../../variables.scss";
 
+.horizontal {
+    ul {
+        display: flex;
+        justify-content: space-between;
+        padding-inline-end: 40px;
+
+        >li {
+            padding: 0px 15px;
+        }
+    }
+}
+
 .container-footer {
     display: flex;
     background-color: $primary-background;
@@ -18,10 +30,12 @@
             flex-direction: column;
             text-align: center;
             justify-content: space-evenly;
+
             app-socials {
                 display: inline-flex;
             }
         }
+
         >div {
             align-content: center;
         }
@@ -40,6 +54,7 @@
     align-content: center;
     background-color: $primary-background;
     border-top: 1px solid $secondary-background;
+
     @media (max-width: 768px) {
         flex-direction: column;
         text-align: center;

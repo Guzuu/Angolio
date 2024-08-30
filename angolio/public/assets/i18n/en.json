@@ -1,0 +1,192 @@
+{
+  "NAV": {
+    "WELCOME": "Welcome",
+    "PORTFOLIO": "Portfolio",
+    "TECHNOLOGIES": "Technologies",
+    "CONTACT": "Contact",
+    "WHEN_AFK": "When AFK"
+  },
+  "HOME": {
+    "WELCOME": {
+      "TITLE": "Mateusz Guz",
+      "TEXT": "Hello, welcome to my webpage I designed and coded, running on the server I set up, on the machine I assembled, connected to the router I configured. This website is pretty simple so check out my other software."
+    },
+    "PORTFOLIO": {
+      "TEXT": "Here, you can find my own projects small and big, as well as some other projects I’ve participated in.",
+      "OWNAPPS": {
+        "TITLE": "My own applications",
+        "TEXT": "Desktop, mobile, webAPIs",
+        "RD": {
+          "TEXT": "I am creating a sports competition app designed for Android and iOS devices using Flutter technology. The API for this application is being developed in .NET CORE."
+        },
+        "SEBPC": {
+          "TEXT": "Tool calculating values for blueprints designed for the game Space Engineers. The tool automatically locates the game folder and updates the database from the game files."
+        },
+        "TPAT": {
+          "TEXT": "Tool for converting graphic files into the so-called pixel art. It utilizes color matching technology with the highest resemblance."
+        },
+        "WP": {
+          "TEXT": "Chrome extension and local api working together to store passwords and later autofill them when visiting the same site again."
+        }
+      },
+      "OWNWEBS": {
+        "TITLE": "Websites and web apps I designed",
+        "TEXT": "Websites made via various CMSes  a range of technolgies. Some of the websites also required setting up a server together with all the services.",
+        "GCPL": {
+          "TEXT": "This portfolio. It was made also to learn a new technology which is angular."
+        },
+        "ATPL": {
+          "TEXT": "This website is dedicated to forest travel agency for children and teens. Its located near Mielec. Project was designed in Figma, then implemented into Joomla! system."
+        },
+        "WWPL": {
+          "TEXT": "This website is dedicated to two entertainment centers and roller rinks of the Wywrotki company in Mielec and Rzeszów. It was created in wordpress. It has an integrated store and ticketing system"
+        },
+        "AMEU": {
+          "TEXT": "This Website is dedicated to the small manufacturer of smokers, bbq-grills and furniture. Made via wordpress"
+        }
+      },
+      "DESIGN": {
+        "TITLE": "Photoshop and Figma",
+        "TEXT": "I also design various types of digital graphics. Photoshop and Figma comes in really handy when making mockups or logos for applications."
+      },
+      "OTHERPROJ": {
+        "TITLE": "Projects I’ve participated in",
+        "TEXT": "Throughout various internships I have been a part of plenty of medium sized projects.",
+        "MZDW": {
+          "TEXT": "This project required me to make a public informations bulletin menu and subpages. I had to make sure menu builds itself dynamically with proper hierarchy. Aside from that, I also worked on couple of pages, buttons and fixes."
+        },
+        "DRCZACH": {
+          "TEXT": "In this project I was challenged with implementing various fixes to the site UI as well as site cms panel. I worked on product page and fixed pagination issues."
+        }
+      },
+      "OTHERSKILLS": {
+        "TITLE": "Other skills",
+        "TEXT": "Here are some other skills I gathered along the way",
+        "SKILLS": {
+          "CLEANCODE": {
+            "TITLE": "Writing clean code",
+            "TEXT": "I did’nt really pay attention to my code quality untill I had to come back to a project some time later on. Now I try my best to keep my code organized"
+          },
+          "PATTERNS": {
+            "TITLE": "Implementing design patterns",
+            "TEXT": "Design patterns help shorten the codebase while keeping things nicely organized"
+          },
+          "PLANNING": {
+            "TITLE": "Project planning charts",
+            "TEXT": "The bigger the project, the more planning and consideration should go into it."
+          },
+          "SERVERS": {
+            "TITLE": "Server management",
+            "TEXT": "In highschool I learned some basics of this topic. Today I keep learning to be able to deploy my own software and other services to my own hardware."
+          },
+          "NETWORK": {
+            "TITLE": "Network management",
+            "TEXT": "From port forwarding to dhcp, vlans and firewall rules. It’s essential to know this stuff for server service deployment to the internet and resolving common issues."
+          },
+          "VIDEO": {
+            "TITLE": "Video editing",
+            "TEXT": "To showcase my skills or create a tutorial video, editing film has been very usefull skill in all the business branches"
+          },
+          "PCTECH": {
+            "TITLE": "Computer maintenance and rapairs",
+            "TEXT": "When It comes to computers, especially windows based I can’t count how many times I’ve dealt with some issues whether it was a software or a hardware problem."
+          },
+          "SOLDER": {
+            "TITLE": "Simple electronics soldering",
+            "TEXT": "Sometimes it’s just a bad capacitor or connector. Replacing it myself saved me a lot of money. Usually though it’s just connecting wires."
+          }
+        }
+      }
+    },
+    "TECH": {
+      "TITLE": "Technologies",
+      "TEXT": "Technologies I’m familiar with and used in various projects."
+    },
+    "CONTACT": {
+      "TEXT": "Feel free to reach out via email, whether you want to explore new ideas or have a project in mind. I’ll promptly respond to your message."
+    },
+    "WHENAFK": {
+      "TITLE": "When away from keyboard",
+      "TEXT": "Writing the code can be engaging for couple of hours which means I’m also in a sitting possition for long periods of time. As my other hobby and to stay fit, I often skate.",
+      "SK8SCHOOL": {
+        "TITLE": "Teaching new generation",
+        "TEXT": "As a side form of income and out of passion, I’m also teaching young people how to skateboard. Together with local skateboarding school, sk8school we are hosting group lessons as well as individual ones."
+      }
+    }
+  },
+  "REDO": {
+    "TITLE": "First of it’s kind. Real game of skate or anything around the world!",
+    "TEXT": "Set up a game, wait for players to join or force start the game. Each game phase is timed so you wont get stuck in case someone is inactive. Set tricks, vote on other player attempts, repeat tricks and even chat during the game. Leave game in any moment you want. Win or lose.",
+    "CHAT": {
+      "TITLE": "Play and chat in real time!",
+      "TEXT": "Chat with other players during the game!"
+    },
+    "CATEGORIES": {
+      "TITLE": "Whatever you ride!",
+      "TEXT": "Do you skate or scoot? Or maybe you ride BMX? App is open for anyone!"
+    },
+    "THEMES": {
+      "TITLE": "Dark and Light themes",
+      "TEXT": "Do you need high contrast or your eyes get burnt by white shine? App’s in-built color theme lets you choose between the two!"
+    },
+    "JOINTEST": "Join closed tests",
+    "PRIVACYPOLICY": {
+      "TITLE": "Privacy policy",
+      "EFFDATE": "Effective Date: 23.01.2024",
+      "ENTRY": "GuzuuCode (“us”, “we”, or “our”) operates the Redo mobile application (the “App”). This page informs you of our policies regarding the collection, use, and disclosure of personal data when you use our App and the choices you have associated with that data.",
+      "ENSURE": "We are committed to ensuring that your privacy is protected. Should we ask you to provide certain information by which you can be identified when using this App, you can be assured that it will only be used in accordance with this privacy statement.",
+      "COLLINFO": "Information Collection and Use",
+      "ACCCREAT": {
+        "TITLE": "Account Creation",
+        "TEXT": "When you create an account with Redo, we may collect the following information:",
+        "USERNAME": "Username:",
+        "TOPERSONALIZE": "To personalize your experience and facilitate communication within the App.",
+        "EMAIL": "Email Address:",
+        "VERIFICATION": "For account verification and communication purposes.",
+        "ADDITION": "This information is used solely for the purpose of providing you with access to the Redo App and its features."
+      },
+      "VIDUPL": {
+        "TITLE": "Video Uploads and Profile Avatar",
+        "TEXT": "Redo allows users to upload video files and set a profile avatar. Please note that the video files and profile avatars you upload will be visible to other Redo users, as these features are designed to enhance social interaction within the App."
+      },
+      "DATA": {
+        "TITLE": "Data Sharing",
+        "TEXT": "Redo does not share any user data, including personal information, with third parties. Your data is securely stored and processed within the confines of the Redo App."
+      },
+      "PUBLICCONTENT": {
+        "TITLE": "Publicly Shared Content",
+        "TEXT": "Please be aware that any videos and profile avatars you upload to Redo are considered public content and may be visible to other users of the App. Exercise caution and ensure that you only share content that you are comfortable being public."
+      },
+      "PROFDEL": {
+        "TITLE": "User Profile Deletion",
+        "TEXT": "Users have the option to delete their profiles within the App. When a user deletes their profile, the following actions occur:",
+        "ADDITION": "This ensures that your personal information is removed from public view, and access to your account is restricted."
+      },
+      "SECURITY": {
+        "TITLE": "Security",
+        "TEXT": "We are committed to ensuring that your information is secure. In order to prevent unauthorized access or disclosure, we have put in place suitable physical, electronic, and managerial procedures to safeguard and secure the information we collect online."
+      },
+      "CHANGES": {
+        "TITLE": "Changes to This Privacy Policy",
+        "TEXT": "We may update our Privacy Policy from time to time. Thus, we advise you to review this page periodically for any changes. We will notify you of any changes by posting the new Privacy Policy on this page. These changes are effective immediately after they are posted on this page."
+      }
+    },
+    "H2DELETEPROF": {
+      "TITLE": "Delete profile",
+      "TITLEFULL": "How to delete profile in Redo App",
+      "DELPROF": {
+        "TITLE": "To delete profile, simply:",
+        "NAVIGATE": "navigate to your profile settings,",
+        "SCROLL": "scroll down,",
+        "PRESS": "press red floating action button with trash can icon,",
+        "CONFIRM": "confirm your password,",
+        "PRESSDEL": "press delete"
+      },
+      "HAPPENS": {
+        "TITLE": "What happens when I delete my profile?",
+        "DATA": "Public data that could identify the person (excluding sent video files) is wiped from our system.",
+        "ACCOUNT": "The account is locked, preventing further access."
+      }
+    }
+  }
+}

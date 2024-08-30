@@ -4,11 +4,12 @@ import { SocialsComponent } from '../elements/socials/socials.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons'
 import { NavmenuComponent } from '../elements/navmenu/navmenu.component';
+import { LanguageSwitchComponent } from '../elements/language-switch/language-switch.component';
 
 @Component({
   selector: 'app-header',
   standalone: true,
-  imports: [NgFor, SocialsComponent, NgClass, FontAwesomeModule, NavmenuComponent],
+  imports: [NgFor, SocialsComponent, NgClass, FontAwesomeModule, NavmenuComponent, LanguageSwitchComponent],
   templateUrl: './header.component.html',
   styleUrl: './header.component.scss'
 })

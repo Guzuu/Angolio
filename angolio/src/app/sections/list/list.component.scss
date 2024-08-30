@@ -14,6 +14,10 @@
         .section-header {
             padding-bottom: 40px;
         }
+        
+        @media (max-width: 768px) {
+            text-align: center;
+            }
 
         .list {
             display: flex;
@@ -56,7 +60,7 @@
                 margin-left: 40px;
 
                 @media (max-width: 768px) {
-                    margin-top: 40px;
+                    margin-top: 30px;
                     margin-left: 0;
                 }
                 img {
@@ -65,7 +69,14 @@
                 }
             }
 
-            h3,p{
+                h4 {
+                    text-align: left;
+                    @media (max-width: 768px) {
+                    text-align: center;
+                }
+            }
+
+            p{
                 text-align: justify;
             }
         }
