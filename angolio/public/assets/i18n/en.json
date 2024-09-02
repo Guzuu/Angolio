@@ -13,7 +13,7 @@
       "TEXT": "Hello, welcome to my webpage I designed and coded, hosted on the machine I assembled, installed system and necessary services, connected to the router I configured. This website is pretty simple so check out my other software."
     },
     "PORTFOLIO": {
-      "TEXT": "Here, you can find my own projects small and big, as well as some other projects I’ve participated in.",
+      "TEXT": "Here, you can find my own projects small and big, as well as some other projects I've participated in.",
       "OWNAPPS": {
         "TITLE": "My own applications",
         "TEXT": "Desktop, mobile, webAPIs",
@@ -51,7 +51,7 @@
         "TEXT": "I also design various types of digital graphics. Photoshop and Figma comes in really handy when making mockups or logos for applications."
       },
       "OTHERPROJ": {
-        "TITLE": "Projects I’ve participated in",
+        "TITLE": "Projects I've participated in",
         "TEXT": "Throughout various internships I have been a part of plenty of medium sized projects.",
         "MZDW": {
           "TEXT": "This project required me to make a public informations bulletin menu and subpages. I had to make sure menu builds itself dynamically with proper hierarchy. Aside from that, I also worked on couple of pages, buttons and fixes."
@@ -66,7 +66,7 @@
         "SKILLS": {
           "CLEANCODE": {
             "TITLE": "Writing clean code",
-            "TEXT": "I did’nt really pay attention to my code quality untill I had to come back to a medium sized project some time later on. Now I try my best to keep my code organized"
+            "TEXT": "I didn't really pay attention to my code quality untill I had to come back to a medium sized project some time later on. Now I try my best to keep my code organized"
           },
           "PATTERNS": {
             "TITLE": "Implementing design patterns",
@@ -82,7 +82,7 @@
           },
           "NETWORK": {
             "TITLE": "Network management",
-            "TEXT": "From port forwarding to dhcp, vlans and firewall rules. It’s essential to know this stuff for server service deployment to the internet and resolving common issues."
+            "TEXT": "From port forwarding to dhcp, vlans and firewall rules. It's essential to know this stuff for server service deployment to the internet and resolving common issues."
           },
           "VIDEO": {
             "TITLE": "Video editing",
@@ -90,18 +90,18 @@
           },
           "PCTECH": {
             "TITLE": "Computer maintenance and rapairs",
-            "TEXT": "When It comes to computers, especially windows based I can’t count how many times I’ve dealt with some issues whether it was a software or a hardware problem."
+            "TEXT": "When It comes to computers, especially windows based I can't count how many times I've dealt with some issues whether it was a software or a hardware problem."
           },
           "SOLDER": {
             "TITLE": "Simple electronics soldering",
-            "TEXT": "Sometimes it’s just a bad capacitor or connector. Replacing it myself saved me a lot of money. Usually though it’s just about connecting wires."
+            "TEXT": "Sometimes it's just a bad capacitor or connector. Replacing it myself saved me a lot of money. Usually though it's just about connecting wires."
           }
         }
       }
     },
     "TECH": {
       "TITLE": "Technologies",
-      "TEXT": "Technologies I’m familiar with and used in various projects."
+      "TEXT": "Technologies I'm familiar with and used in various projects."
     },
     "EDUCATION": {
       "TITLE": "Education",
@@ -117,21 +117,21 @@
     },
     "CONTACT": {
       "TITLE": "Contact",
-      "TEXT": "Feel free to reach out via email, whether you want to explore new ideas or have a project in mind. I’ll promptly respond to your message. contact@guzuucode.pl",
+      "TEXT": "Feel free to reach out via email, whether you want to explore new ideas or have a project in mind. I'll promptly respond to your message. contact@guzuucode.pl",
       "BUTTON": "Mail"
     },
     "WHENAFK": {
       "TITLE": "When away from keyboard",
-      "TEXT": "Writing the code can be engaging for couple of hours which means I’m also in a sitting possition for long periods of time. As my other hobby and to stay fit, I often skate.",
+      "TEXT": "Writing the code can be engaging for couple of hours which means I'm also in a sitting possition for long periods of time. As my other hobby and to stay fit, I often skate.",
       "SK8SCHOOL": {
         "TITLE": "Teaching new generation",
-        "TEXT": "As a side form of income and out of passion, I’m also teaching young people how to skateboard. Together with local skateboarding school, SK8-SCHOOL we are hosting group lessons as well as individual ones."
+        "TEXT": "As a side form of income and out of passion, I'm also teaching young people how to skateboard. Together with local skateboarding school, SK8-SCHOOL we are hosting group lessons as well as individual ones."
       }
     }
   },
   "REDO": {
-    "TITLE": "First of it’s kind. Real game of skate or anything around the world!",
-    "TEXT": "Set up a game, wait for players to join or force start the game. Each game phase is timed so you wont get stuck in case someone is inactive. Set tricks, vote on other player attempts, repeat tricks and even chat during the game. Leave game in any moment you want. Win or lose.",
+    "TITLE": "First of it's kind. Real game of skate or anything around the world!",
+    "TEXT": "Set up a game, wait for players to join or force start the game. Each game phase is timed so you won't get stuck in case someone is inactive. Set tricks, vote on other player attempts, repeat tricks and even chat during the game. Leave game in any moment you want. Win or lose.",
     "CHAT": {
       "TITLE": "Play and chat in real time!",
       "TEXT": "Chat with other players during the game!"
@@ -142,7 +142,7 @@
     },
     "THEMES": {
       "TITLE": "Dark and Light themes",
-      "TEXT": "Do you need high contrast or your eyes get burnt by white shine? App’s in-built color theme lets you choose between the two!"
+      "TEXT": "Do you need high contrast or your eyes get burnt by white shine? App's in-built color theme lets you choose between the two!"
     },
     "JOINTEST": "Join closed tests",
     "PRIVACYPOLICY": {
