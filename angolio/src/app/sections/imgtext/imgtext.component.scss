@@ -4,8 +4,11 @@
   display: flex;
 
   > .content {
-    text-shadow: 0 0 4px $secondary-background, 0 0 4px $secondary-background,
-      0 0 4px $secondary-background, 0 0 4px $secondary-background;
+    text-shadow:
+      0 0 4px $secondary-background,
+      0 0 4px $secondary-background,
+      0 0 4px $secondary-background,
+      0 0 4px $secondary-background;
 
     p {
       font-size: 1.5rem;
@@ -34,15 +37,16 @@
     justify-content: space-between;
     > .image {
       > img {
+        width: 100%;
       }
     }
   }
   @media (max-width: 768px) {
     > .content-foreground {
-        > div {
-          padding-right: 0;
-        }
+      > div {
+        padding-right: 0;
       }
+    }
     > .content-img {
       flex-direction: column;
       align-items: center;
@@ -62,6 +66,7 @@
     overflow: hidden;
     position: absolute;
     > img {
+      filter: brightness(0.7);
       z-index: 4;
       position: relative;
       left: 50%;

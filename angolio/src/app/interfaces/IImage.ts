@@ -1,6 +1,6 @@
 export interface IImage {
-    imagePath?: string;
-    alt?: string;
-    width?: number;
-    boxed?: boolean;
+  imagePath: string;
+  alt: string;
+  size?: number;
+  boxed?: boolean;
 }

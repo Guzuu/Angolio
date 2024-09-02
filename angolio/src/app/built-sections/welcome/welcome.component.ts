@@ -7,8 +7,6 @@ import { TranslateModule } from '@ngx-translate/core';
   standalone: true,
   imports: [ImgtextComponent, TranslateModule],
   templateUrl: './welcome.component.html',
-  styleUrl: './welcome.component.scss'
+  styleUrl: './welcome.component.scss',
 })
-export class WelcomeComponent {
-
-}
+export class WelcomeComponent {}

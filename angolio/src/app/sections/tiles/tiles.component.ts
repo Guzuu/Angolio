@@ -4,13 +4,12 @@ import { FaIconComponent } from '@fortawesome/angular-fontawesome';
 import { ITitleText } from '../../interfaces/ITitleText';
 import { TileselementComponent } from '../../elements/tileselement/tileselement.component';
 
-
 @Component({
   selector: 'app-tiles',
   standalone: true,
   imports: [NgFor, NgStyle, NgIf, FaIconComponent, TileselementComponent],
   templateUrl: './tiles.component.html',
-  styleUrl: './tiles.component.scss'
+  styleUrl: './tiles.component.scss',
 })
 export class TilesComponent {
   @Input() headerCentered: boolean = false;
@@ -18,5 +17,5 @@ export class TilesComponent {
   @Input() tiles!: ITitleText[];
   @Input() percentage = 18;
 
-  constructor() { }
+  constructor() {}
 }

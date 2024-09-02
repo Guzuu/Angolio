@@ -7,7 +7,7 @@ import { NgClass, NgFor, NgIf, NgStyle } from '@angular/common';
   standalone: true,
   imports: [NgIf, NgFor, NgClass, NgStyle],
   templateUrl: './tileselement.component.html',
-  styleUrl: './tileselement.component.scss'
+  styleUrl: './tileselement.component.scss',
 })
 export class TileselementComponent {
   @Input() tiles!: ITitleText[];

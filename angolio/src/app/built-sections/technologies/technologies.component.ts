@@ -7,8 +7,6 @@ import { TranslateModule } from '@ngx-translate/core';
   standalone: true,
   imports: [TilesComponent, TranslateModule],
   templateUrl: './technologies.component.html',
-  styleUrl: './technologies.component.scss'
+  styleUrl: './technologies.component.scss',
 })
-export class TechnologiesComponent {
-
-}
+export class TechnologiesComponent {}

@@ -8,9 +8,8 @@ describe('AccountDeletionComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [AccountDeletionComponent]
-    })
-    .compileComponents();
+      imports: [AccountDeletionComponent],
+    }).compileComponents();
 
     fixture = TestBed.createComponent(AccountDeletionComponent);
     component = fixture.componentInstance;

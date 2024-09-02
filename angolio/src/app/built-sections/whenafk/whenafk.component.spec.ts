@@ -8,9 +8,8 @@ describe('WhenafkComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [WhenafkComponent]
-    })
-    .compileComponents();
+      imports: [WhenafkComponent],
+    }).compileComponents();
 
     fixture = TestBed.createComponent(WhenafkComponent);
     component = fixture.componentInstance;

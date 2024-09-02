@@ -2,7 +2,11 @@ import { Component, ViewChild } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
-import { MatSidenav, MatSidenavContainer, MatSidenavContent } from '@angular/material/sidenav';
+import {
+  MatSidenav,
+  MatSidenavContainer,
+  MatSidenavContent,
+} from '@angular/material/sidenav';
 import { NavmenuComponent } from './elements/navmenu/navmenu.component';
 import { SocialsComponent } from './elements/socials/socials.component';
 import { TranslateService } from '@ngx-translate/core';
@@ -20,10 +24,10 @@ import { LanguageSwitchComponent } from './elements/language-switch/language-swi
     MatSidenav,
     NavmenuComponent,
     SocialsComponent,
-    LanguageSwitchComponent
+    LanguageSwitchComponent,
   ],
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+  styleUrls: ['./app.component.scss'],
 })
 export class AppComponent {
   @ViewChild('sidenav', { static: false }) sidenav!: MatSidenav;
@@ -33,7 +37,7 @@ export class AppComponent {
     // Get the saved language from localStorage or use browser default
     const savedLanguage = localStorage.getItem('selectedLanguage');
     const browserLang = this.translate.getBrowserLang();
-    
+
     if (savedLanguage) {
       this.translate.use(savedLanguage);
     } else if (browserLang && /en|pl/.test(browserLang)) {

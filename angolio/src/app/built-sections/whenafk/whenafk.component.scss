@@ -1,37 +1,45 @@
 @import "../../../variables.scss";
 
 .container {
+  display: flex;
+
+  > .content {
     display: flex;
-
-    >.content {
-        display: flex;
-        z-index: 10;
-        padding: 40px 20px;
-        p {
-            font-size: 1.5rem;
-        }
-        .section-header {
-            padding-bottom: 40px;
-            flex: 1 1 1%;
-            align-content: center;
-            padding-right: 6vw;
-        }
-        .videoplayer {
-            background-color: $primary-background;
-            border-radius: 20px;
-            overflow: hidden;
-            height: 814px;
-            width: 458px;
-            box-shadow: 5px 5px 15px $primary-background;
-        }
-
-        @media (max-width: 768px) {
-            flex-direction: column;
-            text-align: center;
-            align-items: center;
-            .section-header {
-                padding-right: 0;
-            }
-        }
+    z-index: 10;
+    padding: 40px 20px;
+    p {
+      font-size: 1.5rem;
     }
+    .section-header {
+      padding-bottom: 40px;
+      flex: 1 1 1%;
+      align-content: center;
+      padding-right: 6vw;
+    }
+    .videoplayer {
+      background-color: $primary-background;
+      border-radius: 20px;
+      overflow: hidden;
+      box-shadow: 5px 5px 15px $primary-background;
+      height: 533px;
+      iframe {
+        width: 100%;
+        height: 100%;
+      }
+
+      @media (max-width: 768px) {
+        width: 100%;
+        height: 500px;
+      }
+    }
+
+    @media (max-width: 768px) {
+      flex-direction: column;
+      text-align: center;
+      align-items: center;
+      .section-header {
+        padding-right: 0;
+      }
+    }
+  }
 }

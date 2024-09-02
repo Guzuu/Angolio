@@ -9,7 +9,7 @@ import { IImage } from '../../interfaces/IImage';
   standalone: true,
   imports: [NgIf, NgStyle, NgIf, ButtonComponent, NgClass, NgFor],
   templateUrl: './imgtext.component.html',
-  styleUrl: './imgtext.component.scss'
+  styleUrl: './imgtext.component.scss',
 })
 export class ImgtextComponent {
   @Input() headerCentered: boolean = false;
@@ -19,7 +19,7 @@ export class ImgtextComponent {
   @Input() buttonText?: string;
   @Input() backgroundImg = true;
   @Input() reversed = false;
+  @Input() textAlign?: string;
 
-  constructor() {
-  }
+  constructor() {}
 }

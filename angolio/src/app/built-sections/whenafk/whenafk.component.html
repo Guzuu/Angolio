@@ -1,19 +1,38 @@
 <div class="page">
-        <div class="container">
-            <div class="content">
-                <div class="section-header">
-                    <h2>{{ 'HOME.WHENAFK.TITLE' | translate }}</h2>
-                    <p>
-                        {{ 'HOME.WHENAFK.TEXT' | translate }}
-                    </p>
-                </div>
-                <div class="videoplayer">
-                    <iframe width="458" height="815" src="https://www.youtube.com/embed/?autoplay=1&mute=1&?listType=playlist&list=PLh0_xCHV5gIVUyM1OCAsjsdB11sk-MKKy" title="Showcase clips" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                </div>    
-            </div>
-        </div>
-        <app-list [list]="[
-    { title: 'HOME.WHENAFK.SK8SCHOOL.TITLE' | translate, text: 'HOME.WHENAFK.SK8SCHOOL.TEXT' | translate, imagePath: '/assets/images/logos/sk8school.jpg', alt: 'sk8school logo',  
-    url: 'https://www.sk8school.pl/'},
-    ]"></app-list>
+  <div class="container">
+    <div class="content">
+      <div class="section-header">
+        <h2>{{ "HOME.WHENAFK.TITLE" | translate }}</h2>
+        <p>
+          {{ "HOME.WHENAFK.TEXT" | translate }}
+        </p>
+      </div>
+      <div class="videoplayer">
+        <iframe
+          width="458"
+          height="815"
+          src="https://www.youtube.com/embed/?autoplay=1&mute=1&?listType=playlist&list=PLh0_xCHV5gIVUyM1OCAsjsdB11sk-MKKy"
+          title="Showcase clips"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </div>
+  </div>
+  <app-list
+    [list]="[
+      {
+        title: 'HOME.WHENAFK.SK8SCHOOL.TITLE' | translate,
+        text: 'HOME.WHENAFK.SK8SCHOOL.TEXT' | translate,
+        image: {
+          imagePath: '/assets/images/logos/sk8school.png',
+          alt: 'sk8school logo',
+          boxed: true,
+        },
+        url: 'https://www.sk8school.pl/',
+      },
+    ]"
+  ></app-list>
 </div>

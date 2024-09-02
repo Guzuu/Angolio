@@ -8,9 +8,9 @@
       {
         imagePath: '/assets/images/softwareCropped.png',
         alt: 'variety of devices with software UI',
-        width: 400,
-        boxed: false
-      }
+        size: 400,
+        boxed: false,
+      },
     ]"
     [reversed]="true"
     [backgroundImg]="false"
@@ -24,48 +24,110 @@
       {
         title: 'Redo',
         text: 'HOME.PORTFOLIO.OWNAPPS.RD.TEXT' | translate,
-        imagePath: '/assets/images/logos/RedoSmallIcon.png',
-        alt: 'Redo small icon',
+        image: {
+          imagePath: '/assets/images/logos/RedoSmallIcon.png',
+          alt: 'Redo small icon',
+        },
         children: [
-          { imagePath: '/assets/images/logos/csharp.png', alt: 'c#' },
-          { imagePath: '/assets/images/logos/netcore.png', alt: '.NET Core' },
-          { imagePath: '/assets/images/logos/flutter.png', alt: 'flutter' },
           {
-            imagePath: '/assets/images/logos/railway.png',
-            alt: 'railway.app logo'
+            image: {
+              imagePath: '/assets/images/logos/csharp.png',
+              alt: 'c# logo',
+            },
           },
-          { imagePath: '/assets/images/logos/mysql.png', alt: 'mysql' }
+          {
+            image: {
+              imagePath: '/assets/images/logos/netcore.png',
+              alt: '.NET Core logo',
+            },
+          },
+          {
+            image: {
+              imagePath: '/assets/images/logos/flutter.png',
+              alt: 'flutter logo',
+            },
+          },
+          {
+            image: {
+              imagePath: '/assets/images/logos/railway.png',
+              alt: 'railway.app logo',
+            },
+          },
+          {
+            image: {
+              imagePath: '/assets/images/logos/mysql.png',
+              alt: 'mysql logo',
+            },
+          },
         ],
-        url: '/redo'
+        url: '/redo',
       },
       {
         title: 'Space Engineers Blueprint Calc',
         text: 'HOME.PORTFOLIO.OWNAPPS.SEBPC.TEXT' | translate,
         icon: faCalculator,
-        children: [{ imagePath: '/assets/images/logos/csharp.png', alt: 'c#' }],
-        url: 'https://github.com/Guzuu/SEBlueprintCalc'
+        children: [
+          {
+            image: {
+              imagePath: '/assets/images/logos/csharp.png',
+              alt: 'c# logo',
+            },
+          },
+        ],
+        url: 'https://github.com/Guzuu/SEBlueprintCalc',
       },
       {
         title: 'Trove Pixel Art Tool',
         text: 'HOME.PORTFOLIO.OWNAPPS.TPAT.TEXT' | translate,
-        imagePath: '/assets/images/logos/PAT_icon.jpg',
-        alt: 'pixel art tool icon',
-        children: [{ imagePath: '/assets/images/logos/csharp.png', alt: 'c#' }],
-        url: 'https://github.com/Guzuu/TrovePixelArtTool'
+        image: {
+          imagePath: '/assets/images/logos/PAT_icon.jpg',
+          alt: 'pixel art tool icon',
+        },
+        children: [
+          {
+            image: {
+              imagePath: '/assets/images/logos/csharp.png',
+              alt: 'c# logo',
+            },
+          },
+        ],
+        url: 'https://github.com/Guzuu/TrovePixelArtTool',
       },
       {
         title: 'WhatPass',
         text: 'HOME.PORTFOLIO.OWNAPPS.WP.TEXT' | translate,
-        imagePath: '/assets/images/logos/whatPass.png',
-        alt: 'whatpass logo',
+        image: {
+          imagePath: '/assets/images/logos/whatPass.png',
+          alt: 'whatpass logo',
+        },
         children: [
-          { imagePath: '/assets/images/logos/csharp.png', alt: 'c#' },
-          { imagePath: '/assets/images/logos/netcore.png', alt: '.NET Core' },
-          { imagePath: '/assets/images/logos/js.png', alt: 'javascript logo' },
-          { imagePath: '/assets/images/logos/mysql.png', alt: 'mysql' }
+          {
+            image: {
+              imagePath: '/assets/images/logos/csharp.png',
+              alt: 'c# logo',
+            },
+          },
+          {
+            image: {
+              imagePath: '/assets/images/logos/netcore.png',
+              alt: '.NET Core logo',
+            },
+          },
+          {
+            image: {
+              imagePath: '/assets/images/logos/js.png',
+              alt: 'javascript logo',
+            },
+          },
+          {
+            image: {
+              imagePath: '/assets/images/logos/mysql.png',
+              alt: 'mysql logo',
+            },
+          },
         ],
-        url: 'https://github.com/Guzuu/WhatPass'
-      }
+        url: 'https://github.com/Guzuu/WhatPass',
+      },
     ]"
   ></app-list>
   <app-list
@@ -74,33 +136,122 @@
       text: 'HOME.PORTFOLIO.OWNWEBS.TEXT' | translate,
     }"
     [list]="[
-    { title: 'guzuucode.pl', text: 'HOME.PORTFOLIO.OWNWEBS.GCPL.TEXT' | translate, imagePath: '/assets/images/GuzuuCodeSmall.png', alt: 'GuzuuCode small icon', 
-    children: [
-            {imagePath: '/assets/images/logos/angular.png', alt: 'angular'},
-            {imagePath: '/assets/images/logos/nginx.png', alt: 'nginx'},
-            {imagePath: '/assets/images/logos/mysql.png', alt: 'mysql'},
-            {imagePath: '/assets/images/logos/linux.png', alt: 'linux'},
-    ],  },
-    { title: 'alternatywa-travel.pl', text: 'HOME.PORTFOLIO.OWNWEBS.ATPL.TEXT' | translate, imagePath: '/assets/images/logos/alternatywa-travel.png', alt: 'alternatywa travel', 
-    children: [
-            {imagePath: '/assets/images/logos/joomla!.png', alt: 'joomla!'},
-            {imagePath: '/assets/images/logos/mysql.png', alt: 'mysql'},
-    ], 
-    url: 'https://alternatywa-travel.pl/' },
-    { title: 'artmar.eu', text: 'HOME.PORTFOLIO.OWNWEBS.AMEU.TEXT' | translate, imagePath: '/assets/images/logos/artmar.png', alt: 'artmar.eu', 
-    children: [
-            {imagePath: '/assets/images/logos/wordpress.png', alt: 'wordpress'},
-            {imagePath: '/assets/images/logos/nginx.png', alt: 'nginx'},
-            {imagePath: '/assets/images/logos/mysql.png', alt: 'mysql'},
-            {imagePath: '/assets/images/logos/linux.png', alt: 'linux'},
-    ], 
-    url: 'https://artmar.eu/' },
-    { title: 'wrotki-wywrotki.pl', text: 'HOME.PORTFOLIO.OWNWEBS.WWPL.TEXT' | translate, imagePath: '/assets/images/logos/wywrotki.png', alt: 'wrotkarnia wywrotki', 
-    children: [
-            {imagePath: '/assets/images/logos/wordpress.png', alt: 'wordpress'},
-            {imagePath: '/assets/images/logos/mysql.png', alt: 'mysql'},
-    ], 
-    url: 'https://www.wrotki-wywrotki.pl/' }
+      {
+        title: 'guzuucode.pl',
+        text: 'HOME.PORTFOLIO.OWNWEBS.GCPL.TEXT' | translate,
+        image: {
+          imagePath: '/assets/images/GuzuuCodeSmall.png',
+          alt: 'GuzuuCode small icon',
+        },
+        children: [
+          {
+            image: {
+              imagePath: '/assets/images/logos/angular.png',
+              alt: 'angular logo',
+            },
+          },
+          {
+            image: {
+              imagePath: '/assets/images/logos/nginx.png',
+              alt: 'nginx logo',
+            },
+          },
+          {
+            image: {
+              imagePath: '/assets/images/logos/mysql.png',
+              alt: 'mysql logo',
+            },
+          },
+          {
+            image: {
+              imagePath: '/assets/images/logos/linux.png',
+              alt: 'linux logo',
+            },
+          },
+        ],
+        url: 'https://github.com/Guzuu/Angolio',
+      },
+      {
+        title: 'alternatywa-travel.pl',
+        text: 'HOME.PORTFOLIO.OWNWEBS.ATPL.TEXT' | translate,
+        image: {
+          imagePath: '/assets/images/logos/alternatywa-travel.png',
+          alt: 'alternatywa travel',
+        },
+        children: [
+          {
+            image: {
+              imagePath: '/assets/images/logos/joomla!.png',
+              alt: 'joomla! logo',
+            },
+          },
+          {
+            image: {
+              imagePath: '/assets/images/logos/mysql.png',
+              alt: 'mysql logo',
+            },
+          },
+        ],
+        url: 'https://alternatywa-travel.pl/',
+      },
+      {
+        title: 'artmar.eu',
+        text: 'HOME.PORTFOLIO.OWNWEBS.AMEU.TEXT' | translate,
+        image: {
+          imagePath: '/assets/images/logos/artmar.png',
+          alt: 'artmar.eu',
+        },
+        children: [
+          {
+            image: {
+              imagePath: '/assets/images/logos/wordpress.png',
+              alt: 'wordpress logo',
+            },
+          },
+          {
+            image: {
+              imagePath: '/assets/images/logos/nginx.png',
+              alt: 'nginx logo',
+            },
+          },
+          {
+            image: {
+              imagePath: '/assets/images/logos/mysql.png',
+              alt: 'mysql logo',
+            },
+          },
+          {
+            image: {
+              imagePath: '/assets/images/logos/linux.png',
+              alt: 'linux logo',
+            },
+          },
+        ],
+        url: 'https://artmar.eu/',
+      },
+      {
+        title: 'wrotki-wywrotki.pl',
+        text: 'HOME.PORTFOLIO.OWNWEBS.WWPL.TEXT' | translate,
+        image: {
+          imagePath: '/assets/images/logos/wywrotki.png',
+          alt: 'wrotkarnia wywrotki',
+        },
+        children: [
+          {
+            image: {
+              imagePath: '/assets/images/logos/wordpress.png',
+              alt: 'wordpress logo',
+            },
+          },
+          {
+            image: {
+              imagePath: '/assets/images/logos/mysql.png',
+              alt: 'mysql logo',
+            },
+          },
+        ],
+        url: 'https://www.wrotki-wywrotki.pl/',
+      },
     ]"
   ></app-list>
   <div class="image">
@@ -109,47 +260,78 @@
         {
           title: 'HOME.PORTFOLIO.DESIGN.TITLE' | translate,
           text: 'HOME.PORTFOLIO.DESIGN.TEXT' | translate,
-          icon: faPaintBrush
-        }
+          icon: faPaintBrush,
+        },
       ]"
     ></app-list>
   </div>
   <app-list
     [sectionHeader]="{
       title: 'HOME.PORTFOLIO.OTHERPROJ.TITLE' | translate,
-      text: 'HOME.PORTFOLIO.OTHERPROJ.TEXT' | translate
+      text: 'HOME.PORTFOLIO.OTHERPROJ.TEXT' | translate,
     }"
     [list]="[
       {
         title: 'mzdw.pl',
         text: 'HOME.PORTFOLIO.OTHERPROJ.MZDW.TEXT' | translate,
-        imagePath: '/assets/images/logos/mzdw.png',
-        alt: 'mazowiecki zarząd dróg wojewódzkich w Warszawie logo',
+        image: {
+          imagePath: '/assets/images/logos/mzdw.png',
+          alt: 'mazowiecki zarząd dróg wojewódzkich w Warszawie logo',
+          size: 180,
+          boxed: true,
+        },
         children: [
-          { imagePath: '/assets/images/logos/vuejs.png', alt: 'vue js logo' },
           {
-            imagePath: '/assets/images/logos/laravel.png',
-            alt: 'laravel logo'
+            image: {
+              imagePath: '/assets/images/logos/vuejs.png',
+              alt: 'vue js logo',
+            },
           },
-          { imagePath: '/assets/images/logos/nodejs.png', alt: 'nodejs logo' }
+          {
+            image: {
+              imagePath: '/assets/images/logos/laravel.png',
+              alt: 'laravel logo',
+            },
+          },
+          {
+            image: {
+              imagePath: '/assets/images/logos/nodejs.png',
+              alt: 'nodejs logo',
+            },
+          },
         ],
-        url: 'https://mzdw.pl/'
+        url: 'https://mzdw.pl/',
       },
       {
         title: 'czachauto.pl',
         text: 'HOME.PORTFOLIO.OTHERPROJ.DRCZACH.TEXT' | translate,
-        imagePath: '/assets/images/logos/drczach.png',
-        alt: 'danuta ryszard czach logo',
+        image: {
+          imagePath: '/assets/images/logos/drczach.png',
+          alt: 'danuta ryszard czach logo',
+          size: 200,
+        },
         children: [
-          { imagePath: '/assets/images/logos/vuejs.png', alt: 'vue js logo' },
           {
-            imagePath: '/assets/images/logos/laravel.png',
-            alt: 'laravel logo'
+            image: {
+              imagePath: '/assets/images/logos/vuejs.png',
+              alt: 'vue js logo',
+            },
           },
-          { imagePath: '/assets/images/logos/nodejs.png', alt: 'nodejs logo' }
+          {
+            image: {
+              imagePath: '/assets/images/logos/laravel.png',
+              alt: 'laravel logo',
+            },
+          },
+          {
+            image: {
+              imagePath: '/assets/images/logos/nodejs.png',
+              alt: 'nodejs logo',
+            },
+          },
         ],
-        url: 'https://czachauto.pl/'
-      }
+        url: 'https://czachauto.pl/',
+      },
     ]"
   ></app-list>
 

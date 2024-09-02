@@ -1,9 +1,20 @@
 <div class="page">
-    <app-imgtext
-    [sectionHeader]="{ title: 'contact&#64;guzuucode.pl', text: 'HOME.CONTACT.TEXT' | translate }"
-    [url]="'mailto:contact@guzuucode.pl'" [buttonText]="'Mail'"
-    [images]="[{imagePath: '/assets/images/portrait.jpg', alt: 'portrait photo of website author', width: 200, boxed: true}]"
+  <app-imgtext
+    [sectionHeader]="{
+      title: 'HOME.CONTACT.TITLE' | translate,
+      text: 'HOME.CONTACT.TEXT' | translate,
+    }"
+    [url]="'mailto:contact@guzuucode.pl'"
+    [buttonText]="'HOME.CONTACT.BUTTON' | translate"
+    [images]="[
+      {
+        imagePath: '/assets/images/portrait.jpg',
+        alt: 'portrait photo of website author',
+        size: 400,
+        boxed: true,
+      },
+    ]"
     [reversed]="true"
     [backgroundImg]="false"
-></app-imgtext>
+  ></app-imgtext>
 </div>

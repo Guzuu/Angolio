@@ -6,8 +6,6 @@ import { TranslateModule } from '@ngx-translate/core';
   standalone: true,
   imports: [TranslateModule],
   templateUrl: './account-deletion.component.html',
-  styleUrl: './account-deletion.component.scss'
+  styleUrl: './account-deletion.component.scss',
 })
-export class AccountDeletionComponent {
-
-}
+export class AccountDeletionComponent {}

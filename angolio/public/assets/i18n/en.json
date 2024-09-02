@@ -3,13 +3,14 @@
     "WELCOME": "Welcome",
     "PORTFOLIO": "Portfolio",
     "TECHNOLOGIES": "Technologies",
+    "EDUCATION": "Education",
     "CONTACT": "Contact",
     "WHEN_AFK": "When AFK"
   },
   "HOME": {
     "WELCOME": {
       "TITLE": "Mateusz Guz",
-      "TEXT": "Hello, welcome to my webpage I designed and coded, running on the server I set up, on the machine I assembled, connected to the router I configured. This website is pretty simple so check out my other software."
+      "TEXT": "Hello, welcome to my webpage I designed and coded, hosted on the machine I assembled, installed system and necessary services, connected to the router I configured. This website is pretty simple so check out my other software."
     },
     "PORTFOLIO": {
       "TEXT": "Here, you can find my own projects small and big, as well as some other projects I’ve participated in.",
@@ -65,7 +66,7 @@
         "SKILLS": {
           "CLEANCODE": {
             "TITLE": "Writing clean code",
-            "TEXT": "I did’nt really pay attention to my code quality untill I had to come back to a project some time later on. Now I try my best to keep my code organized"
+            "TEXT": "I did’nt really pay attention to my code quality untill I had to come back to a medium sized project some time later on. Now I try my best to keep my code organized"
           },
           "PATTERNS": {
             "TITLE": "Implementing design patterns",
@@ -93,7 +94,7 @@
           },
           "SOLDER": {
             "TITLE": "Simple electronics soldering",
-            "TEXT": "Sometimes it’s just a bad capacitor or connector. Replacing it myself saved me a lot of money. Usually though it’s just connecting wires."
+            "TEXT": "Sometimes it’s just a bad capacitor or connector. Replacing it myself saved me a lot of money. Usually though it’s just about connecting wires."
           }
         }
       }
@@ -102,15 +103,29 @@
       "TITLE": "Technologies",
       "TEXT": "Technologies I’m familiar with and used in various projects."
     },
+    "EDUCATION": {
+      "TITLE": "Education",
+      "TEXT": "Schools and universities I attended",
+      "WSIZ": {
+        "TITLE": "University of Information Technology and Management in Rzeszów",
+        "TEXT": "I completed a bachelor's degree in computer science with a specialization in programming - dual studies"
+      },
+      "ZSE": {
+        "TITLE": "Electronic Schools Complex in Rzeszów",
+        "TEXT": "I completed technical school with a profile in IT technician."
+      }
+    },
     "CONTACT": {
-      "TEXT": "Feel free to reach out via email, whether you want to explore new ideas or have a project in mind. I’ll promptly respond to your message."
+      "TITLE": "Contact",
+      "TEXT": "Feel free to reach out via email, whether you want to explore new ideas or have a project in mind. I’ll promptly respond to your message. contact@guzuucode.pl",
+      "BUTTON": "Mail"
     },
     "WHENAFK": {
       "TITLE": "When away from keyboard",
       "TEXT": "Writing the code can be engaging for couple of hours which means I’m also in a sitting possition for long periods of time. As my other hobby and to stay fit, I often skate.",
       "SK8SCHOOL": {
         "TITLE": "Teaching new generation",
-        "TEXT": "As a side form of income and out of passion, I’m also teaching young people how to skateboard. Together with local skateboarding school, sk8school we are hosting group lessons as well as individual ones."
+        "TEXT": "As a side form of income and out of passion, I’m also teaching young people how to skateboard. Together with local skateboarding school, SK8-SCHOOL we are hosting group lessons as well as individual ones."
       }
     }
   },
@@ -188,5 +203,8 @@
         "ACCOUNT": "The account is locked, preventing further access."
       }
     }
+  },
+  "FOOTER": {
+    "TEXT": "Based in Poland, remotely worldwide."
   }
 }

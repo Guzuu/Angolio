@@ -1,21 +1,20 @@
 @import "../variables.scss";
 
 mat-sidenav-container {
-    background-color: transparent;
+  background-color: transparent;
 }
 mat-sidenav {
-    position: fixed;
-    top: 80px;
-    background-color: $primary-background;
-    border-radius: 0;
+  width: fit-content;
+  padding: 0 20px;
+  position: fixed;
+  top: 80px;
+  background-color: $primary-background;
+  border-radius: 0;
 
-    hr {
-        margin: 0 20px;
+  ul {
+    padding-inline: 20px;
+    > li {
+      padding: 10px 0;
     }
-
-    ul {
-        >li {
-            padding: 10px 0;
-        }
-    }
+  }
 }

@@ -1,56 +1,68 @@
 @import "../../../variables.scss";
 
 .tiles {
-    display: flex;
-    gap: 40px;
-    flex-wrap: wrap;
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
 
-    .tile {
-        padding: 40px;
-        border-radius: 20px;
-        max-width: 100%;
-        box-sizing: border-box;
-    
-        img {
-            width: 140px;
-        }
+  .tile {
+    padding: 40px;
+    border-radius: 20px;
+    max-width: 100%;
+    box-sizing: border-box;
+
+    img {
+      width: 140px;
     }
+
+    p {
+      text-align: center;
+    }
+  }
 }
 
 .subTiles {
-    margin: -20px 40px 0 40px;
-    display: flex;
-    gap: 20px;
-    flex-wrap: wrap;
-    width: fit-content;
-    
-    .tile {
-        border-radius: 10px;
-        width: 100px;
-        height: 100px;
-    
-        img {
-            width: 70px;
-        }
+  margin: -20px 40px 0 40px;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  width: fit-content;
+
+  .tile {
+    border-radius: 10px;
+    width: 100px;
+    height: 100px;
+
+    img {
+      width: 70px;
     }
+
+    @media (max-width: 768px) {
+      width: 70px;
+      height: 70px;
+
+      img {
+        width: 50px;
+      }
+    }
+  }
 }
 
 .tile {
+  box-shadow: 5px 5px 20px black;
+  background-color: $primary-background;
+  align-content: center;
+  text-align: center;
+  transition: all 0.2s ease;
 
-    box-shadow: 5px 5px 20px black;
-    background-color: $primary-background;
-    align-content: center;
+  h4 {
     text-align: center;
-    transition: all 0.2s ease;
-
-    h4{
-        text-align: center;
-    }
-    p{
-        text-align: justify;
-    }
-    &:hover {
-        margin-top:-8px;
-        margin-bottom: 8px;
-    }
+  }
+  p {
+    text-align: justify;
+  }
+  &:hover {
+    margin-top: -8px;
+    margin-bottom: 8px;
+  }
 }

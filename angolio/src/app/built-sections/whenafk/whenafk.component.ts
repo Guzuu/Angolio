@@ -8,8 +8,6 @@ import { TranslateModule } from '@ngx-translate/core';
   standalone: true,
   imports: [ImgtextComponent, ListComponent, TranslateModule],
   templateUrl: './whenafk.component.html',
-  styleUrl: './whenafk.component.scss'
+  styleUrl: './whenafk.component.scss',
 })
-export class WhenafkComponent {
-
-}
+export class WhenafkComponent {}

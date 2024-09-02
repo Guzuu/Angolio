@@ -46,12 +46,18 @@ export class NavmenuComponent implements AfterViewInit {
 
     {
       id: 3,
+      key: 'NAV.EDUCATION',
+      sectionId: 'education',
+    },
+
+    {
+      id: 4,
       key: 'NAV.CONTACT',
       sectionId: 'contact',
     },
 
     {
-      id: 4,
+      id: 5,
       key: 'NAV.WHEN_AFK',
       sectionId: 'when-afk',
     },

@@ -8,9 +8,8 @@ describe('RedoComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [RedoComponent]
-    })
-    .compileComponents();
+      imports: [RedoComponent],
+    }).compileComponents();
 
     fixture = TestBed.createComponent(RedoComponent);
     component = fixture.componentInstance;

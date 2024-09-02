@@ -1,15 +1,19 @@
 <div class="container container-header">
-    <div class="content">
-        <div>
-            <a href="/"><img class="image" src="/assets/images/GuzuuCodeSmall.png" /></a>
-        </div>
-        <div><app-navmenu></app-navmenu></div>
-        <div class="right-side"><app-language-switch></app-language-switch><app-socials></app-socials></div>
-        
-        <!-- Menu Toggle Button -->
-        <div class="menu-toggle" (click)="_toggleMenu()">
-            <fa-icon [icon]="faBars" size="2x"></fa-icon>
-        </div>
+  <div class="content">
+    <div>
+      <a href="/"
+        ><img class="image" src="/assets/images/GuzuuCodeSmall.png"
+      /></a>
     </div>
+    <div><app-navmenu></app-navmenu></div>
+    <div class="right-side">
+      <app-language-switch></app-language-switch><app-socials></app-socials>
+
+      <!-- Menu Toggle Button -->
+      <div class="menu-toggle" (click)="_toggleMenu()">
+        <fa-icon [icon]="faBars" size="2x"></fa-icon>
+      </div>
+    </div>
+  </div>
 </div>
 <div id="header-height"></div>

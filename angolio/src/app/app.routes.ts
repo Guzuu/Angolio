@@ -6,14 +6,14 @@ import { AccountDeletionComponent } from './pages/redo/account-deletion/account-
 import { NgModule } from '@angular/core';
 
 export const routes: Routes = [
-    {path: '', component: HomeComponent},
-    {path: 'redo', component: RedoComponent},
-    {path: 'redo/privacy-policy', component: PrivacyPolicyComponent},
-    {path: 'redo/account-deletion', component: AccountDeletionComponent},
+  { path: '', component: HomeComponent },
+  { path: 'redo', component: RedoComponent },
+  { path: 'redo/privacy-policy', component: PrivacyPolicyComponent },
+  { path: 'redo/account-deletion', component: AccountDeletionComponent },
 ];
 
 @NgModule({
-    imports: [RouterModule.forRoot(routes)],
-    exports: [RouterModule]
-  })
-  export class AppRoutingModule { }
+  imports: [RouterModule.forRoot(routes)],
+  exports: [RouterModule],
+})
+export class AppRoutingModule {}

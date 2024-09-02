@@ -1,23 +1,22 @@
 @import "../../../variables.scss";
 
 .container {
-    display: flex;
+  display: flex;
 
-    >.content {
-        z-index: 10;
-        padding: 40px 20px;
+  > .content {
+    z-index: 10;
+    padding: 40px 20px;
 
-        p {
-            margin-bottom: 0;
-        }
-
-        .section-header {
-            padding-bottom: 40px;
-        }
-        @media (max-width: 768px) {
-            text-align: center;
-            }
+    p {
+      margin-bottom: 0;
     }
 
+    .section-header {
+      padding-bottom: 40px;
+    }
 
+    @media (max-width: 768px) {
+      text-align: center;
+    }
+  }
 }

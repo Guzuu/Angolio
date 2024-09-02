@@ -1,7 +1,7 @@
 import { NgClass, NgFor, NgIf } from '@angular/common';
 import { Component } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
-import { faLanguage } from '@fortawesome/free-solid-svg-icons'
+import { faLanguage } from '@fortawesome/free-solid-svg-icons';
 import { FaIconComponent } from '@fortawesome/angular-fontawesome';
 
 @Component({
@@ -9,7 +9,7 @@ import { FaIconComponent } from '@fortawesome/angular-fontawesome';
   standalone: true,
   imports: [NgFor, NgClass, NgIf, FaIconComponent],
   templateUrl: './language-switch.component.html',
-  styleUrls: ['./language-switch.component.scss']
+  styleUrls: ['./language-switch.component.scss'],
 })
 export class LanguageSwitchComponent {
   languages = ['en', 'pl']; // Supported languages

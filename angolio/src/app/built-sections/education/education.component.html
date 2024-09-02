@@ -1,0 +1,32 @@
+<div class="page">
+  <app-list
+    [sectionHeader]="{
+      title: 'HOME.EDUCATION.TITLE' | translate,
+      text: 'HOME.EDUCATION.TEXT' | translate,
+    }"
+    [list]="[
+      {
+        title: 'HOME.EDUCATION.WSIZ.TITLE' | translate,
+        text: 'HOME.EDUCATION.WSIZ.TEXT' | translate,
+        image: {
+          imagePath: '/assets/images/logos/wsiz.svg',
+          alt: 'wyższa szkoła informatyki i zarządzania w rzeszowie logo',
+          boxed: true,
+          size: 200,
+        },
+        url: 'https://wsiz.edu.pl/',
+      },
+      {
+        title: 'HOME.EDUCATION.ZSE.TITLE' | translate,
+        text: 'HOME.EDUCATION.ZSE.TEXT' | translate,
+        image: {
+          imagePath: '/assets/images/logos/zse.svg',
+          alt: 'zespół szkół elektronicznych logo',
+          boxed: true,
+          size: 200,
+        },
+        url: 'https://www.elektronik.rzeszow.pl/',
+      },
+    ]"
+  ></app-list>
+</div>

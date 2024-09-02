@@ -3,13 +3,14 @@
     "WELCOME": "Witaj",
     "PORTFOLIO": "Portfolio",
     "TECHNOLOGIES": "Technologie",
+    "EDUCATION": "Edukacja",
     "CONTACT": "Kontakt",
     "WHEN_AFK": "Kiedy AFK"
   },
   "HOME": {
     "WELCOME": {
       "TITLE": "Mateusz Guz",
-      "TEXT": "Cześć, witaj na mojej stronie którą zaprojektowałem w angularze, zahostowanej na serwerze, który postawiłem, na maszynie, którą złożyłem, podłączonej do routera, którego skonfigurowałem. Ta strona jest dosyć prosta więc sprawdź moje inne oprogramowanie."
+      "TEXT": "Cześć, witaj na mojej stronie którą zaprojektowałem i zakodowałem, zahostowanej na maszynie, którą złożyłem, zainstalowałem system oraz niezbędne usługi, podłączonej do routera, którego skonfigurowałem. Ta strona jest dosyć prosta więc sprawdź moje inne oprogramowanie."
     },
     "PORTFOLIO": {
       "TEXT": "Znajdziesz tutaj moje małe i duże projekty, jak i projekty, w których brałem udział",
@@ -65,7 +66,7 @@
         "SKILLS": {
           "CLEANCODE": {
             "TITLE": "Pisanie czystego kodu",
-            "TEXT": "Nie zwracałem wcześniej uwagi na jakość mojego kodu, dopóki nie musiałem wrócić do projektu po pewnym czasie. Teraz staram się jak najlepiej uporządkowywać swój kod."
+            "TEXT": "Nie zwracałem wcześniej uwagi na jakość mojego kodu, dopóki nie musiałem wrócić do większego projektu po pewnym czasie. Teraz staram się jak najlepiej uporządkowywać swój kod."
           },
           "PATTERNS": {
             "TITLE": "Stosowanie wzorców projektowych",
@@ -85,7 +86,7 @@
           },
           "VIDEO": {
             "TITLE": "Edycja wideo",
-            "TEXT": "Aby zaprezentować swoje umiejętności lub stworzyć film instruktażowy, edycja wideo okazała się bardzo przydatną umiejętnością we wszystkich gałęziach biznesu."
+            "TEXT": "Aby zaprezentować swoje umiejętności lub stworzyć film instruktażowy, edycja wideo okazała się być bardzo przydatną umiejętnością we wszystkich gałęziach biznesu."
           },
           "PCTECH": {
             "TITLE": "Konserwacja i naprawa komputerów",
@@ -93,7 +94,7 @@
           },
           "SOLDER": {
             "TITLE": "Proste lutowanie elektroniki",
-            "TEXT": "Czasami to tylko uszkodzony kondensator lub złącze. Samodzielna wymiana pozwala mi zaoszczędzić sporo pieniędzy. Głównie jednak łącze różne przewody."
+            "TEXT": "Czasami to tylko uszkodzony kondensator lub złącze. Samodzielna wymiana pozwoliła mi zaoszczędzić sporo pieniędzy. Głównie jednak łączę różne przewody."
           }
         }
       }
@@ -102,27 +103,41 @@
       "TITLE": "Technologie",
       "TEXT": "Technologie, które znam i których używałem w różnych projektach."
     },
+    "EDUCATION": {
+      "TITLE": "Edukacja",
+      "TEXT": "Szkoły i uczelnie, do których uczęszczałem",
+      "WSIZ": {
+        "TITLE": "Wyższa Szkoła Informatyki i Zarządzania z Siedzibą w Rzeszowie",
+        "TEXT": "Ukończyłem studia pierwszego stopnia na kierunku informatyka o specjalizacji programowanie - studia dualne"
+      },
+      "ZSE": {
+        "TITLE": "Zespół Szkół Elektronicznych w Rzeszowie",
+        "TEXT": "Ukończyłem technikum na profilu technik informatyk."
+      }
+    },
     "CONTACT": {
-      "TEXT": "Zapraszam do kontaktu przez e-mail, niezależnie od tego, czy chcesz omówić nowe pomysły, czy masz na myśli nowy projekt. Odpowiem na Twoją wiadomość niezwłocznie."
+      "TITLE": "Kontakt",
+      "TEXT": "Zapraszam do kontaktu przez e-mail, niezależnie od tego, czy chcesz omówić nowe pomysły, czy masz na myśli nowy projekt. Odpowiem na Twoją wiadomość niezwłocznie. contact@guzuucode.pl",
+      "BUTTON": "Napisz"
     },
     "WHENAFK": {
       "TITLE": "Kiedy z dala od klawiatury",
       "TEXT": "Pisanie kodu może być angażujące przez kilka godzin, co oznacza, że również przez długi czas jestem w pozycji siedzącej. Jako hobby, a także aby zachować formę, często jeżdżę na deskorolce.",
       "SK8SCHOOL": {
-        "TITLE": "Szkolenie nowego deskorolkowego pokolenia",
-        "TEXT": "Jako dodatkowa forma dochodu jak i z pasji, uczę młodych ludzi, jak jeździć na deskorolce. Wraz z lokalną szkółką deskorolki sk8school prowadzimy lekcje grupowe oraz indywidualne."
+        "TITLE": "Szkolenie nowego pokolenia",
+        "TEXT": "Jako dodatkowa forma dochodu jak i z pasji, uczę młodych ludzi, jak jeździć na deskorolce. Wraz z lokalną szkółką deskorolki SK8-SCHOOL prowadzimy lekcje grupowe oraz indywidualne."
       }
     }
   },
   "REDO": {
-    "TITLE": "Pierwsza tego typu gra w skate lub cokolwiek innego na świecie!",
-    "TEXT": "Załóż grę, poczekaj na dołączenie graczy lub wymuś rozpoczęcie gry. Każda faza gry jest ograniczona czasowo, więc nie utkniesz, jeśli ktoś będzie nieaktywny. Ustaw triki, głosuj na próby innych graczy, powtarzaj triki, a nawet rozmawiaj w trakcie gry. Opuść grę w dowolnym momencie. Wygraj lub przegraj.",
+    "TITLE": "Pierwsza tego typu gra w skate lub cokolwiek innego z kimkolwiek na całym świecie!",
+    "TEXT": "Załóż grę, poczekaj na dołączenie graczy lub wymuś rozpoczęcie gry. Każda faza gry jest ograniczona czasowo, więc nie utkniesz, jeśli ktoś będzie nieaktywny. Zadawaj triki, głosuj na próby innych graczy, powtarzaj triki, a nawet rozmawiaj w trakcie gry. Opuść grę w dowolnym momencie. Wygraj lub przegraj.",
     "CHAT": {
       "TITLE": "Graj i rozmawiaj w czasie rzeczywistym!",
       "TEXT": "Rozmawiaj z innymi graczami podczas gry!"
     },
     "CATEGORIES": {
-      "TITLE": "Niezależnie od tego, czym jeździsz!",
+      "TITLE": "Niezależnie od tego, na czym jeździsz!",
       "TEXT": "Czy jeździsz na deskorolce, hulajnodze, a może na BMX-ie? Aplikacja jest otwarta dla każdego!"
     },
     "THEMES": {
@@ -146,8 +161,8 @@
         "ADDITION": "Te informacje są używane wyłącznie w celu zapewnienia Ci dostępu do aplikacji Redo i jej funkcji."
       },
       "VIDUPL": {
-        "TITLE": "Przesyłanie wideo i awatara profilu",
-        "TEXT": "Redo pozwala użytkownikom przesyłać pliki wideo i ustawiać awatar profilu. Pamiętaj, że przesłane pliki wideo i awatary profilu będą widoczne dla innych użytkowników Redo, ponieważ te funkcje mają na celu zwiększenie interakcji społecznych w aplikacji."
+        "TITLE": "Przesyłanie wideo i avatara profilu",
+        "TEXT": "Redo pozwala użytkownikom przesyłać pliki wideo i ustawiać avatar profilu. Pamiętaj, że przesłane pliki wideo i avatary profilu będą widoczne dla innych użytkowników Redo, ponieważ te funkcje mają na celu zwiększenie interakcji społecznych w aplikacji."
       },
       "DATA": {
         "TITLE": "Udostępnianie danych",
@@ -155,7 +170,7 @@
       },
       "PUBLICCONTENT": {
         "TITLE": "Publicznie udostępniane treści",
-        "TEXT": "Pamiętaj, że wszystkie przesłane przez Ciebie filmy i awatary profilu w Redo są uznawane za treści publiczne i mogą być widoczne dla innych użytkowników aplikacji. Bądź ostrożny i udostępniaj tylko te treści, które chcesz, aby były publiczne."
+        "TEXT": "Pamiętaj, że wszystkie przesłane przez Ciebie filmy i avatary profilu w Redo są uznawane za treści publiczne i mogą być widoczne dla innych użytkowników aplikacji. Bądź ostrożny i udostępniaj tylko te treści, które chcesz, aby były publiczne."
       },
       "PROFDEL": {
         "TITLE": "Usunięcie profilu użytkownika",
@@ -188,5 +203,8 @@
         "ACCOUNT": "Konto jest blokowane, uniemożliwiając dalszy dostęp."
       }
     }
+  },
+  "FOOTER": {
+    "TEXT": "Zdalnie na całym świecie."
   }
 }

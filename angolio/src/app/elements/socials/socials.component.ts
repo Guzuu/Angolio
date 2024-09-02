@@ -9,7 +9,7 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons';
   standalone: true,
   imports: [FontAwesomeModule],
   templateUrl: './socials.component.html',
-  styleUrl: './socials.component.scss'
+  styleUrl: './socials.component.scss',
 })
 export class SocialsComponent {
   faInstagram = faInstagram;

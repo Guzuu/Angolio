@@ -1,45 +1,83 @@
 <div class="container">
-    <div class="content">
-        <div *ngIf="sectionHeader != null" class="section-header"
-            [ngStyle]="{'text-align': (headerCentered) ? 'center' : null}">
-            <h3>{{sectionHeader.title}}</h3>
-            <p>
-                {{sectionHeader.text}}
-            </p>
-        </div>
-        <div class="list">
-            <div *ngFor='let item of list'>
-                <a *ngIf="item.url; else noLink" [href]="item.url" [target]="item.url.includes('http') ? '_blank' : '_self'">
-                    <div class="list-item">
-                        <div>
-                            <h4>{{item.title}}</h4>
-                            <p>
-                                {{item.text}}
-                            </p>
-                        </div>
-                        <div class="img-icon">
-                            <img *ngIf="item.imagePath != null" [src]="item.imagePath" [alt]="item.alt">
-                            <fa-icon *ngIf="item.icon != null" [icon]="item.icon" size="4x"></fa-icon>
-                        </div>
-                    </div>
-                </a>
-                <ng-template #noLink>
-                    <div class="list-item">
-                        <div>
-                            <h4>{{item.title}}</h4>
-                            <p>
-                                {{item.text}}
-                            </p>
-                        </div>
-                        <div class="img-icon">
-                            <img *ngIf="item.imagePath != null" [src]="item.imagePath" [alt]="item.alt">
-                            <fa-icon *ngIf="item.icon != null" [icon]="item.icon" size="5x"></fa-icon>
-                        </div>
-                    </div>
-                  </ng-template>
-                <app-tileselement *ngIf="item.children != null" [tiles]="item.children" [isSubTiles]="true"
-                ></app-tileselement>
-            </div>
-        </div>
+  <div class="content">
+    <div
+      *ngIf="sectionHeader != null"
+      class="section-header"
+      [ngStyle]="{ 'text-align': headerCentered ? 'center' : null }"
+    >
+      <h3>{{ sectionHeader.title }}</h3>
+      <p>
+        {{ sectionHeader.text }}
+      </p>
     </div>
+    <div class="list">
+      <div *ngFor="let item of list">
+        <a
+          *ngIf="item.url; else noLink"
+          [href]="item.url"
+          [target]="item.url.includes('http') ? '_blank' : '_self'"
+        >
+          <div class="list-item">
+            <div>
+              <h4>{{ item.title }}</h4>
+              <p>
+                {{ item.text }}
+              </p>
+            </div>
+            <div
+              class="img-icon"
+              [ngClass]="item.image?.boxed ? 'img-icon-bg' : null"
+            >
+              <img
+                *ngIf="item.image != null"
+                [src]="item.image.imagePath"
+                [alt]="item.image.alt"
+                [ngStyle]="
+                  item.image.size ? { width: item.image.size + 'px' } : {}
+                "
+              />
+              <fa-icon
+                *ngIf="item.icon != null"
+                [icon]="item.icon"
+                size="4x"
+              ></fa-icon>
+            </div>
+          </div>
+        </a>
+        <ng-template #noLink>
+          <div class="list-item">
+            <div>
+              <h4>{{ item.title }}</h4>
+              <p>
+                {{ item.text }}
+              </p>
+            </div>
+            <div
+              class="img-icon"
+              [ngClass]="item.image?.boxed ? 'img-icon-bg' : null"
+            >
+              <img
+                *ngIf="item.image != null"
+                [src]="item.image.imagePath"
+                [alt]="item.image.alt"
+                [ngStyle]="
+                  item.image.size ? { width: item.image.size + 'px' } : {}
+                "
+              />
+              <fa-icon
+                *ngIf="item.icon != null"
+                [icon]="item.icon"
+                size="5x"
+              ></fa-icon>
+            </div>
+          </div>
+        </ng-template>
+        <app-tileselement
+          *ngIf="item.children != null"
+          [tiles]="item.children"
+          [isSubTiles]="true"
+        ></app-tileselement>
+      </div>
+    </div>
+  </div>
 </div>

@@ -1,20 +1,32 @@
 <div *ngIf="isSubTiles; else standardTiles" class="subTiles">
-    <div *ngFor='let item of tiles' class="tile">
-        <img *ngIf="item.imagePath != null" [src]="item.imagePath" [alt]="item.alt">
-        <h4>{{item.title}}</h4>
-        <p *ngIf="item.text != null">
-            {{item.text}}
-        </p>
-    </div>
+  <div *ngFor="let item of tiles" class="tile">
+    <img
+      *ngIf="item.image != null"
+      [src]="item.image.imagePath"
+      [alt]="item.image.alt"
+    />
+    <h4>{{ item.title }}</h4>
+    <p *ngIf="item.text != null">
+      {{ item.text }}
+    </p>
+  </div>
 </div>
 <ng-template #standardTiles>
-    <div class="tiles">
-        <div *ngFor='let item of tiles' class="tile" [ngStyle]="{'flex': '1 1 ' + percentage + '%'}">
-            <img *ngIf="item.imagePath != null" [src]="item.imagePath" [alt]="item.alt">
-            <h4>{{item.title}}</h4>
-            <p *ngIf="item.text != null">
-                {{item.text}}
-            </p>
-        </div>
+  <div class="tiles">
+    <div
+      *ngFor="let item of tiles"
+      class="tile"
+      [ngStyle]="{ flex: '1 1 ' + percentage + '%' }"
+    >
+      <img
+        *ngIf="item.image != null"
+        [src]="item.image.imagePath"
+        [alt]="item.image.alt"
+      />
+      <h4>{{ item.title }}</h4>
+      <p *ngIf="item.text != null">
+        {{ item.text }}
+      </p>
     </div>
+  </div>
 </ng-template>
