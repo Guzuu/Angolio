@@ -10,6 +10,7 @@ mat-sidenav {
   top: 80px;
   background-color: $primary-background;
   border-radius: 0;
+  border-right: 2px solid $border;
 
   ul {
     padding-inline: 20px;

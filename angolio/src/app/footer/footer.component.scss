@@ -17,6 +17,7 @@
   background-color: $primary-background;
   height: 200px;
   align-content: center;
+  border-top: 2px solid $border;
 
   > .content {
     z-index: 10;
@@ -59,7 +60,7 @@
   box-sizing: border-box;
   align-content: center;
   background-color: $primary-background;
-  border-top: 1px solid $secondary-background;
+  border-top: 2px solid $border;
 
   @media (max-width: 768px) {
     flex-direction: column;

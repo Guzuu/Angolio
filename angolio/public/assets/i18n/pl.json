@@ -10,7 +10,7 @@
   "HOME": {
     "WELCOME": {
       "TITLE": "Mateusz Guz",
-      "TEXT": "Cześć, witaj na mojej stronie którą zaprojektowałem i zakodowałem, zahostowanej na maszynie, którą złożyłem, zainstalowałem system oraz niezbędne usługi, podłączonej do routera, którego skonfigurowałem. Ta strona jest dosyć prosta więc sprawdź moje inne oprogramowanie."
+      "TEXT": "Cześć, witaj na mojej stronie którą stworzyłem w Angularze. Maszyna, na której strona jest zahostowana również została przeze mnie złożona oraz skonfigurowana. Router i konfiguracja sieciowa to także moja sprawka. Strona ta jest dosyć prosta i nie posiada własnego backend'u, więc sprawdź moje inne oprogramowanie!"
     },
     "PORTFOLIO": {
       "TEXT": "Znajdziesz tutaj moje małe i duże projekty, jak i projekty, w których brałem udział",
@@ -64,29 +64,21 @@
         "TITLE": "Inne umiejętności",
         "TEXT": "Oto niektóre inne umiejętności, które zdobyłem po drodze",
         "SKILLS": {
-          "CLEANCODE": {
-            "TITLE": "Pisanie czystego kodu",
-            "TEXT": "Nie zwracałem wcześniej uwagi na jakość mojego kodu, dopóki nie musiałem wrócić do większego projektu po pewnym czasie. Teraz staram się jak najlepiej uporządkowywać swój kod."
-          },
-          "PATTERNS": {
-            "TITLE": "Stosowanie wzorców projektowych",
-            "TEXT": "Wzorce projektowe pomagają skrócić bazę kodu, jednocześnie uporządkowując rzeczy w odpowiedniej hierarchii"
-          },
           "PLANNING": {
             "TITLE": "Plany projektowe",
-            "TEXT": "Im większy projekt, tym więcej planowania i rozważenia powinno zostać w niego włożone."
+            "TEXT": "Im większy projekt, tym więcej planowania i rozważania powinno zostać w niego wdrożone, dlatego stosuję różnego rodzaju schematy blokowe i diagramy. Z pomocą programu Enterprise Architect tworzę diagramy przypadków użycia oraz diagram klas"
           },
           "SERVERS": {
             "TITLE": "Zarządzanie serwerami",
-            "TEXT": "W szkole średniej nauczyłem się podstaw zarządzania serwerem. Obecnie nadal się uczę, aby móc wdrażać własne oprogramowanie i inne usługi na własnym sprzęcie."
+            "TEXT": "W szkole średniej nauczyłem się podstaw zarządzania serwerem. Obecnie nadal się uczę, aby móc wdrażać własne oprogramowanie i inne usługi na własnym sprzęcie. Windows czy linux serwer nie jest mi obcy."
           },
           "NETWORK": {
             "TITLE": "Zarządzanie siecią",
-            "TEXT": "Od przekierowania portów po DHCP, VLAN-y i reguły zapory ogniowej. Przydatne jest znanie tych rzeczy przy wdrażaniu usług serwerowych oraz rozwiązywaniu typowych problemów."
+            "TEXT": "Od przekierowania portów po DHCP, VLAN-y i reguły zapory ogniowej. Znajomość tych rzeczy jest przydatna przy wdrażaniu usług serwerowych oraz rozwiązywaniu typowych problemów."
           },
           "VIDEO": {
             "TITLE": "Edycja wideo",
-            "TEXT": "Aby zaprezentować swoje umiejętności lub stworzyć film instruktażowy, edycja wideo okazała się być bardzo przydatną umiejętnością we wszystkich gałęziach biznesu."
+            "TEXT": "Aby zaprezentować swoje umiejętności lub stworzyć film instruktażowy, edycja wideo okazała się być bardzo przydatną umiejętnością we wszystkich gałęziach biznesu. Korzystałem z Magix VEGAS PRO oraz DaVinci Resolve."
           },
           "PCTECH": {
             "TITLE": "Konserwacja i naprawa komputerów",
@@ -94,7 +86,7 @@
           },
           "SOLDER": {
             "TITLE": "Proste lutowanie elektroniki",
-            "TEXT": "Czasami to tylko uszkodzony kondensator lub złącze. Samodzielna wymiana pozwoliła mi zaoszczędzić sporo pieniędzy. Głównie jednak łączę różne przewody."
+            "TEXT": "Samodzielna wymiana prostych elementów elektronicznych pozwoliła mi zaoszczędzić sporo pieniędzy. Proste instalacje elektryczne również nie stanowią dla mnie żadnego problemu."
           }
         }
       }

@@ -10,7 +10,7 @@
   "HOME": {
     "WELCOME": {
       "TITLE": "Mateusz Guz",
-      "TEXT": "Hello, welcome to my webpage I designed and coded, hosted on the machine I assembled, installed system and necessary services, connected to the router I configured. This website is pretty simple so check out my other software."
+      "TEXT": "Hello, welcome to my Angular-made webpage I created. I've also assembled and configured the machine, on which the site is hosted. Router and network configuration is my doing as well. This site is pretty simple and doesn't have any backend, so check out my other software!"
     },
     "PORTFOLIO": {
       "TEXT": "Here, you can find my own projects small and big, as well as some other projects I've participated in.",
@@ -64,21 +64,13 @@
         "TITLE": "Other skills",
         "TEXT": "Here are some other skills I gathered along the way",
         "SKILLS": {
-          "CLEANCODE": {
-            "TITLE": "Writing clean code",
-            "TEXT": "I didn't really pay attention to my code quality untill I had to come back to a medium sized project some time later on. Now I try my best to keep my code organized"
-          },
-          "PATTERNS": {
-            "TITLE": "Implementing design patterns",
-            "TEXT": "Design patterns help shorten the codebase while keeping things nicely organized"
-          },
           "PLANNING": {
             "TITLE": "Project planning charts",
-            "TEXT": "The bigger the project, the more planning and consideration should go into it."
+            "TEXT": "The bigger the project, the more planning and consideration should be poured into it, thats why I'm implementing various diagrams. I'm using Enterprise Architect to implement use case and class diagrams."
           },
           "SERVERS": {
             "TITLE": "Server management",
-            "TEXT": "In highschool I learned some basics of this topic. Today I keep learning to be able to deploy my own software and other services to my own hardware."
+            "TEXT": "In highschool I learned some basics of this topic. Today I keep learning to be able to deploy my own software and other services to my own hardware. Windows and Linux server is no stranger to me."
           },
           "NETWORK": {
             "TITLE": "Network management",
@@ -86,15 +78,15 @@
           },
           "VIDEO": {
             "TITLE": "Video editing",
-            "TEXT": "To showcase my skills or create a tutorial video, editing film has been very usefull skill in all the business branches"
+            "TEXT": "To showcase my skills or create a tutorial video, editing film has been very usefull skill in all the business branches. I've commonly used Magix VEGAS PRO and DaVinci Resolve."
           },
           "PCTECH": {
             "TITLE": "Computer maintenance and rapairs",
-            "TEXT": "When It comes to computers, especially windows based I can't count how many times I've dealt with some issues whether it was a software or a hardware problem."
+            "TEXT": "When It comes to computers, especially Windows OS based I can't count how many times I've dealt with some issues whether it was a software or a hardware problem."
           },
           "SOLDER": {
             "TITLE": "Simple electronics soldering",
-            "TEXT": "Sometimes it's just a bad capacitor or connector. Replacing it myself saved me a lot of money. Usually though it's just about connecting wires."
+            "TEXT": "Replacing simple electronic components myself, saved me a lot of money. I can also do some simple electric installations."
           }
         }
       }

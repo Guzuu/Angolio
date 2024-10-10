@@ -11,7 +11,8 @@
   display: flex;
   position: fixed;
   z-index: 20;
-  box-shadow: 0 0 15px black;
+  border-bottom: 2px solid $border;
+  box-shadow: 0 0 20px $shadow;
 
   > .content {
     display: flex;
