@@ -36,6 +36,9 @@
         "GCPL": {
           "TEXT": "This portfolio. It was made also to learn a new technology which is angular."
         },
+        "MMPL": {
+          "TEXT": "A portfolio of a bakery sweets site."
+        },
         "ATPL": {
           "TEXT": "This website is dedicated to forest travel agency for children and teens. Its located near Mielec. Project was designed in Figma, then implemented into Joomla! system."
         },
@@ -194,6 +197,42 @@
         "DATA": "Public data that could identify the person (excluding sent video files) is wiped from our system.",
         "ACCOUNT": "The account is locked, preventing further access."
       }
+    }
+  },
+  "FAMILY": {
+    "MEMBER": {
+      "ADD": "Add Member",
+      "EDIT": "Edit Member",
+      "FORM": {
+        "NAME": "Name",
+        "SURNAME": "Family Surname",
+        "BIRTH_YEAR": "Year of Birth",
+        "DEATH_YEAR": "Year of Death",
+        "MARRIAGE_YEAR": "Year of Marriage",
+        "GENDER": "Gender",
+        "ADDITIONAL_INFO": "Additional Information",
+        "PICTURE": "Profile Picture",
+        "FATHER": "Father",
+        "MOTHER": "Mother",
+        "NO_PARENT": "Not specified",
+        "USE_EXACT_DATE": "Use exact date",
+        "BIRTH_DATE": "Birth Date",
+        "MARRIAGE_DATE": "Marriage Date",
+        "DEATH_DATE": "Death Date",
+        "GENDER_OPTIONS": {
+          "MALE": "Male",
+          "FEMALE": "Female"
+        },
+        "ERRORS": {
+          "YEAR_TOO_EARLY": "Year cannot be earlier than 1000",
+          "YEAR_FUTURE": "Year cannot be in the future",
+          "BIRTH_AFTER_DEATH": "Birth year cannot be after death year",
+          "BIRTH_AFTER_MARRIAGE": "Birth year cannot be after marriage year",
+          "INVALID_DATE": "Invalid date format"
+        }
+      },
+      "SAVE": "Save",
+      "CANCEL": "Cancel"
     }
   },
   "FOOTER": {

@@ -1,0 +1,59 @@
+<div class="container">
+  <div class="content">
+    <h2>{{ 'FAMILY.MEMBER.EDIT' | translate }}</h2>
+    
+    <form [formGroup]="memberForm" (ngSubmit)="onSubmit()" class="member-form">
+      <mat-form-field>
+        <mat-label>{{ 'FAMILY.MEMBER.FORM.NAME' | translate }}</mat-label>
+        <input matInput formControlName="name">
+      </mat-form-field>
+
+      <mat-form-field>
+        <mat-label>{{ 'FAMILY.MEMBER.FORM.SURNAME' | translate }}</mat-label>
+        <input matInput formControlName="surname">
+      </mat-form-field>
+
+      <mat-form-field>
+        <mat-label>{{ 'FAMILY.MEMBER.FORM.BIRTH_YEAR' | translate }}</mat-label>
+        <input matInput type="number" formControlName="birthYear">
+      </mat-form-field>
+
+      <mat-form-field>
+        <mat-label>{{ 'FAMILY.MEMBER.FORM.MARRIAGE_YEAR' | translate }}</mat-label>
+        <input matInput type="number" formControlName="marriageYear">
+      </mat-form-field>
+
+      <mat-form-field>
+        <mat-label>{{ 'FAMILY.MEMBER.FORM.DEATH_YEAR' | translate }}</mat-label>
+        <input matInput type="number" formControlName="deathYear">
+      </mat-form-field>
+
+      <mat-form-field>
+        <mat-label>{{ 'FAMILY.MEMBER.FORM.GENDER' | translate }}</mat-label>
+        <mat-select formControlName="gender">
+          <mat-option value="male">{{ 'FAMILY.MEMBER.FORM.GENDER_OPTIONS.MALE' | translate }}</mat-option>
+          <mat-option value="female">{{ 'FAMILY.MEMBER.FORM.GENDER_OPTIONS.FEMALE' | translate }}</mat-option>
+        </mat-select>
+      </mat-form-field>
+
+      <mat-form-field>
+        <mat-label>{{ 'FAMILY.MEMBER.FORM.ADDITIONAL_INFO' | translate }}</mat-label>
+        <textarea matInput formControlName="additionalInfo" rows="4"></textarea>
+      </mat-form-field>
+
+      <div class="image-upload">
+        <label>{{ 'FAMILY.MEMBER.FORM.PICTURE' | translate }}</label>
+        <input type="file" accept="image/*" (change)="onImageSelected($event)">
+      </div>
+
+      <div class="form-actions">
+        <button mat-raised-button color="primary" type="submit">
+          {{ 'FAMILY.MEMBER.SAVE' | translate }}
+        </button>
+        <button mat-button type="button" (click)="onCancel()">
+          {{ 'FAMILY.MEMBER.CANCEL' | translate }}
+        </button>
+      </div>
+    </form>
+  </div>
+</div>

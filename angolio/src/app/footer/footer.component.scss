@@ -15,7 +15,7 @@
 .container-footer {
   display: flex;
   background-color: $primary-background;
-  height: 200px;
+  height: 80px;
   align-content: center;
   border-top: 2px solid $border;
 
@@ -66,4 +66,9 @@
     flex-direction: column;
     text-align: center;
   }
+}
+
+.container-copyright p {
+  margin: 10px 0;
+  font-size: 1rem;
 }

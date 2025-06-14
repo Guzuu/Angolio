@@ -1,0 +1,46 @@
+.member-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: var(--secondary-background);
+  border-radius: 8px;
+
+  mat-form-field {
+    margin-bottom: 1rem;
+  }
+
+  .image-upload {
+    margin-bottom: 1.5rem;
+
+    label {
+      display: block;
+      margin-bottom: 0.5rem;
+      color: var(--primary-color);
+    }
+
+    input[type="file"] {
+      width: 100%;
+    }
+  }
+
+  .form-actions {
+    display: flex;
+    gap: 1rem;
+    justify-content: flex-end;
+    margin-top: 1rem;
+  }
+}
+
+.date-input-group {
+  margin-bottom: 1rem;
+  
+  mat-slide-toggle {
+    margin-bottom: 0.5rem;
+  }
+
+  mat-form-field {
+    width: 100%;
+  }
+}

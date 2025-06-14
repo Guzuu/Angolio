@@ -1,0 +1,132 @@
+/* Add styles for the family tree page */
+.tree-container {
+  overflow-x: auto;
+  padding: 20px;
+  white-space: nowrap;
+  cursor: grab;
+  user-select: none;
+}
+
+ul {
+  list-style-type: none;
+  padding: 20px 0;
+  position: relative;
+  display: flex;
+  margin: 0;
+}
+
+ul ul {
+  padding-left: 1em;
+}
+
+li {
+  float: none;
+  text-align: center;
+  list-style-type: none;
+  position: relative;
+  padding: 20px 5px 0 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.couple {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.person-card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 0;
+  width: 120px;
+  min-height: 80px;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  text-align: left;
+}
+
+.parents {
+  margin-top: 10px;
+  font-size: 0.8em;
+  color: #666;
+}
+
+.parents div {
+  margin-left: 5px;
+}
+
+/* Lines */
+li::before,
+li::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 50%;
+  border-top: 2px solid;
+  width: 50%;
+  height: 20px;
+}
+
+li::after {
+  right: auto;
+  left: 50%;
+  border-left: 2px solid #ccc;
+}
+
+li:first-child::before,
+li:last-child::after {
+  border: 0 none;
+}
+
+li:last-child::before {
+  border-right: 2px solid #ccc;
+  border-radius: 0 5px 0 0;
+}
+
+li:first-child::after {
+  border-radius: 5px 0 0 0;
+}
+
+ul ul::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 50%;
+  border-left: 2px solid #ccc;
+  width: 0;
+  height: 20px;
+}
+
+.tree-container>ul>li::before, .tree-container>ul>li::after {
+    display: none;
+}
+
+.root-list {
+  gap: 100px;
+  padding: 20px;
+  justify-content: flex-start;
+}
+
+.tree-root {
+  min-width: max-content;
+  border-top: none !important;
+  flex-shrink: 0;
+  padding-right: 20px;
+}
+
+.tree-title {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Remove all static family color definitions */
+/* Colors are now generated dynamically in the component */

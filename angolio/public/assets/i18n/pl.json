@@ -36,6 +36,9 @@
         "GCPL": {
           "TEXT": "To portfolio. Stworzone zostało również w celach edukacyjnych tj. nauki angulara."
         },
+        "MMPL": {
+          "TEXT": "Strona internetowa stworzona dla Mieleckiej cukierni. Tworzą ciasta, torty oraz inne słodkości. Strona została zaprojektowana i stworzona przy użyciu wordpressa."
+        },
         "ATPL": {
           "TEXT": "Ta strona została stworzona dla biura podróży leśnych dla dzieci i młodzieży. Zlokalizowane jest ono koło Mielca. Projekt został wykonany w Figmie a następnie wdrożony do systemu Joomla!."
         },
@@ -194,6 +197,42 @@
         "DATA": "Publiczne dane, które mogłyby zidentyfikować osobę (z wyłączeniem przesłanych plików wideo), są usuwane z naszego systemu.",
         "ACCOUNT": "Konto jest blokowane, uniemożliwiając dalszy dostęp."
       }
+    }
+  },
+  "FAMILY": {
+    "HEADER": {
+      "TITLE": "Drzewo genealogiczne",
+      "TEXT": "Zobacz drzewo genealogiczne rodziny Guzów"
+    },
+    "MEMBER": {
+      "ADD": "Dodaj Członka",
+      "EDIT": "Edytuj Członka",
+      "FORM": {
+        "NAME": "Imię",
+        "SURNAME": "Nazwisko rodowe",
+        "BIRTH_YEAR": "Rok urodzenia",
+        "DEATH_YEAR": "Rok śmierci",
+        "MARRIAGE_YEAR": "Rok ślubu",
+        "GENDER": "Płeć",
+        "ADDITIONAL_INFO": "Dodatkowe informacje",
+        "PICTURE": "Zdjęcie profilowe",
+        "GENDER_OPTIONS": {
+          "MALE": "Mężczyzna",
+          "FEMALE": "Kobieta"
+        },
+        "FATHER": "Ojciec",
+        "MOTHER": "Matka",
+        "NO_PARENT": "Nie określono",
+        "USE_EXACT_DATE": "Użyj dokładnej daty",
+        "BIRTH_DATE": "Data urodzenia",
+        "MARRIAGE_DATE": "Data ślubu",
+        "DEATH_DATE": "Data śmierci",
+        "ERRORS": {
+          "INVALID_DATE": "Nieprawidłowy format daty"
+        }
+      },
+      "SAVE": "Zapisz",
+      "CANCEL": "Anuluj"
     }
   },
   "FOOTER": {

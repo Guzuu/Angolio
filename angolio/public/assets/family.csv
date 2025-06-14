@@ -1,0 +1,89 @@
+id;mother_id;father_id;first_name;last_name;gender;date_of_birth;date_of_death;description
+1;0;0;Franciszek;Guz;Male;1913;1987;Original ancestor in the Guz family tree
+2;0;0;Helena;Pałka;Female;1909;1990;Wife of Franciszek Guz
+3;2;1;Anna;Guz;Female;1937;2019;First child of Franciszek and Helena
+4;2;1;Stefania;Guz;Female;1939;;Second child of Franciszek and Helena
+5;2;1;Jan;Guz;Male;1941;;Third child of Franciszek and Helena
+6;2;1;Maria;Guz;Female;1943;2024;Fourth child of Franciszek and Helena
+7;2;1;Roman;Guz;Male;1946;;Fifth child of Franciszek and Helena
+8;0;0;Henryk;Misz;Male;1935;2000;Husband of Anna Guz
+9;0;0;Zdzisław;Bułdak;Male;1936;;Husband of Stefania Guz
+10;0;0;Maria;Polak;Female;1950;;Wife of Jan Guz
+11;0;0;Jan;Drążek;Male;1940;;Husband of Maria Guz
+12;0;0;Alicja;Wójcik;Female;1948;;Wife of Roman Guz
+13;3;8;Janusz;Bułdak;Male;1961;;Son of Anna Guz and Henryk Misz (note: appears to have Bułdak surname despite father being Misz)
+14;4;9;Mariusz;Bułdak;Male;1962;;First son of Stefania Guz and Zdzisław Bułdak
+15;4;9;Andrzej;Bułdak;Male;1969;;Second son of Stefania Guz and Zdzisław Bułdak
+16;5;10;Izabela;Guz;Female;1975;;First child of Jan Guz and Maria Polak
+17;5;10;Łukasz;Guz;Male;1981;;Second child of Jan Guz and Maria Polak
+18;5;10;Weronika;Guz;Female;1986;;Third child of Jan Guz and Maria Polak
+19;6;11;Marta;Drążek;Female;1968;;First child of Maria Guz and Jan Drążek
+20;6;11;Leszek;Drążek;Male;1964;;Second child of Maria Guz and Jan Drążek
+21;6;11;Katarzyna;Drążek;Female;1980;;Third child of Maria Guz and Jan Drążek
+22;7;12;Nikodem;Guz;Male;1970;;First child of Roman Guz and Alicja Wójcik
+23;7;12;Iwona;Guz;Female;1974;;Second child of Roman Guz and Alicja Wójcik
+24;7;12;Justyna;Guz;Female;1977;;Third child of Roman Guz and Alicja Wójcik
+25;7;12;Barbara;Guz;Female;1986;;Fourth child of Roman Guz and Alicja Wójcik
+26;0;0;Krystyna;Kozak;Female;0;;Wife of Janusz Bułdak
+27;0;0;Jolanta;Tkaczek;Female;1962;;Wife of Mariusz Bułdak
+28;0;0;Dariusz;Ponykała;Male;1969;;Husband of Kinga Bułdak
+29;0;0;Rafał;Kampka;Male;1971;;Husband of Izabela Guz
+30;0;0;Patrycja;Mościpan;Female;1987;;Wife of Łukasz Guz
+31;0;0;Henryk;Witaiec;Male;1969;;Husband of Marta Drążek
+32;0;0;Paweł;Biały;Male;1979;;Husband of Katarzyna Drążek
+33;0;0;Artur;Aurzadniczek;Male;1968;2022;First husband of Anna Guz
+34;0;0;Jacek;Trąbka;Male;1976;;Husband of Justyna Guz
+35;13;26;Jadwiga;Bułdak;Female;1985;;Daughter of Janusz Bułdak and Krystyna Kozak
+36;14;27;Markus;Bułdak;Male;1987;;First child of Mariusz Bułdak and Jolanta Tkaczek
+37;14;27;Natalia;Bułdak;Female;1993;;Second child of Mariusz Bułdak and Jolanta Tkaczek
+38;0;28;Kinga;Bułdak;Female;1989;;Wife of Dariusz Ponykała, appears to be daughter of Andrzej Bułdak
+39;16;29;Olga;Kampka;Female;2005;;Daughter of Izabela Guz and Rafał Kampka
+40;17;30;Filip;Guz;Male;2018;;Son of Łukasz Guz and Patrycja Mościpan
+41;17;30;Szymon;Guz;Male;2024;;Younger son of Łukasz Guz and Patrycja Mościpan, twin
+42;17;30;Tymoteusz;Guz;Male;2024;;Younger son of Łukasz Guz and Patrycja Mościpan, twin
+43;19;31;Olga;Witaiec;Female;1990;;Daughter of Marta Drążek and Henryk Witaiec
+44;20;0;Danuta;Krzon;Female;1969;;Partner of Leszek Drążek
+45;20;44;Sylwia;Drążek;Female;1995;;Daughter of Leszek Drążek and Danuta Krzon
+46;21;32;Alicja;Biały;Female;2007;;First child of Katarzyna Drążek and Paweł Biały
+47;21;32;Szymon;Biały;Male;2010;;Second child of Katarzyna Drążek and Paweł Biały
+48;21;32;Hanna;Biały;Female;2015;;Third child of Katarzyna Drążek and Paweł Biały
+49;23;33;Agata;Aurzadniczek;Female;1996;;First child of Anna Guz and Artur Aurzadniczek
+50;23;33;Aneta;Aurzadniczek;Female;2000;;Second child of Anna Guz and Artur Aurzadniczek
+51;0;0;Krystian;Zawiłowicz;Male;1990;;Partner of Agata Aurzadniczek
+52;49;51;Lilianna;Zawiłowicz;Female;2016;;Daughter of Agata Aurzadniczek and Krystian Zawiłowicz
+53;24;34;Monika;Trąbka;Female;1998;;First child of Justyna Guz and Jacek Trąbka
+54;24;34;Agnieszka;Trąbka;Female;2005;;Second child of Justyna Guz and Jacek Trąbka
+55;0;0;Piotr;Kopeć;Male;1975;;Second husband of Anna Guz
+56;23;55;Dominik;Kopeć;Male;2006;;Son of Anna Guz and Piotr Kopeć
+57;12;7;Anna;Guz;Female;1974;;Daughter of Roman Guz and Alicja Wójcik
+101;0;0;Jan;Guz;Male;1888;1965;Original ancestor in second Guz family tree
+102;0;0;Anna;Szczygieł;Female;1893;1919;First wife of Jan Guz
+103;102;101;Tadeusz;Guz;Male;1915;2003;Son of Jan Guz and Anna Szczygieł
+104;0;0;Greta;Aniela;Female;1918;1945;First wife of Tadeusz Guz
+105;0;0;Lech;Maria;Female;1924;2013;Second wife of Tadeusz Guz
+106;104;103;Irena;Guz;Female;1944;;First daughter of Tadeusz Guz and Greta Aniela
+107;104;103;Janina;Guz;Female;1943;;Second daughter of Tadeusz Guz and Greta Aniela  
+108;105;103;Elżbieta;Guz;Female;1946;2007;Daughter of Tadeusz Guz and Lech Maria
+109;105;103;Stanisław;Guz;Male;1951;1987;Son of Tadeusz Guz and Lech Maria
+110;0;0;Krzysztof;Stanisław;Male;1938;;Husband of Irena Guz
+111;0;0;Korab;Tadeusz;Male;1939;2016;Husband of Janina Guz
+112;0;0;Żurański;Andrzej;Male;1943;;Husband of Elżbieta Guz
+113;0;0;Michnar;Janina;Female;1955;;Wife of Stanisław Guz
+114;106;110;Wojciech;Krotyż;Male;1970;;Son of Irena Guz and Krzysztof Stanisław
+115;107;111;Jolanta;Korab;Female;1967;2009;First child of Janina Guz and Korab Tadeusz
+116;107;111;Robert;Korab;Male;1970;;Second child of Janina Guz and Korab Tadeusz
+117;108;112;Magdalena;Żurański;Female;1976;;First child of Elżbieta Guz and Żurański Andrzej
+118;108;112;Jacek;Żurański;Male;1972;;Second child of Elżbieta Guz and Żurański Andrzej
+119;109;113;Elżbieta;Guz;Female;1974;;Daughter of Stanisław Guz and Michnar Janina
+120;0;0;Kłoć;Agnieszka;Female;1972;;Wife of Wojciech Krotyż
+121;0;0;Chodnacki;Robert;Male;1969;;Husband of Jolanta Korab
+122;0;0;Truskolabcka;Anna;Female;1980;;Wife of Robert Korab
+123;0;0;Baron;Sabrina;Female;1979;;Wife of Jacek Żurański
+124;114;120;Kamil;Krotyż;Male;1993;;First son of Wojciech Krotyż and Kłoć Agnieszka
+125;114;120;Dariusz;Krotyż;Male;1994;;Second son of Wojciech Krotyż and Kłoć Agnieszka
+126;114;120;Kacper;Krotyż;Male;2004;;Third son of Wojciech Krotyż and Kłoć Agnieszka
+127;115;121;Rafał;Chodnacki;Male;1986;;First child of Jolanta Korab and Chodnacki Robert
+128;115;121;Katarzyna;Chodnacki;Female;1994;;Second child of Jolanta Korab and Chodnacki Robert
+129;116;122;Kamila;Korab;Female;1992;;First daughter of Robert Korab and Truskolabcka Anna
+130;116;122;Klaudia;Korab;Female;1994;;Second daughter of Robert Korab and Truskolabcka Anna
+131;118;123;Tymoteusz;Baron;Male;2002;;Son of Jacek Żurański and Baron Sabrina

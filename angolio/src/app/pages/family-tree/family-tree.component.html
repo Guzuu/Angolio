@@ -1,0 +1,78 @@
+<div class="page">
+  <app-imgtext
+    [sectionHeader]="{
+      title: 'FAMILY.HEADER.TITLE' | translate,
+      text: 'FAMILY.HEADER.TEXT' | translate,
+    }"
+    [images]="[
+      {
+        imagePath: '/assets/images/portrait.jpg',
+        alt: 'portrait photo of family tree author',
+        size: 400,
+        boxed: true,
+      },
+    ]"
+    [reversed]="false"
+    [backgroundImg]="false"
+  ></app-imgtext>
+</div>
+
+<div class="tree-container" 
+     (mousedown)="onMouseDown($event)"
+     (mousemove)="onMouseMove($event)"
+     (mouseup)="onMouseUp($event)"
+     (mouseleave)="onMouseLeave($event)">
+  <ul class="root-list">
+    <ng-container *ngFor="let root of treeRoots">
+      <li [class]="getFamilyClass(root)" class="tree-root">
+        <div class="couple">
+          <div class="person-card" [attr.data-lastname]="root.last_name">
+            <strong>{{root.first_name}} {{root.last_name}}</strong>
+            <small>{{root.date_of_birth}} {{root.date_of_death ? '- ' + root.date_of_death : ''}}</small>
+          </div>
+          <div class="person-card" *ngIf="root.spouse" [attr.data-lastname]="root.spouse.last_name">
+            <strong>{{root.spouse.first_name}} {{root.spouse.last_name}}</strong>
+            <small>{{root.spouse.date_of_birth}} {{root.spouse.date_of_death ? '- ' + root.spouse.date_of_death : ''}}</small>
+          </div>
+        </div>
+        <ul *ngIf="root.children?.length">
+          <ng-container *ngFor="let child of root.children">
+            <ng-template [ngTemplateOutlet]="treeNode" [ngTemplateOutletContext]="{$implicit: child}"></ng-template>
+          </ng-container>
+        </ul>
+      </li>
+    </ng-container>
+  </ul>
+
+  <ul class="people-list">
+    <ng-container *ngFor="let person of people">
+      <li class="tree-root">
+       <div class="person-card" [attr.data-lastname]="person.last_name">
+          <strong>{{person.first_name}} {{person.last_name}}</strong>
+          <small>{{person.date_of_birth}} {{person.date_of_death ? '- ' + person.date_of_death : ''}}</small>
+        </div>
+      </li>
+    </ng-container>
+  </ul>
+  
+</div>
+
+<ng-template #treeNode let-person="$implicit">
+  <li [class]="getFamilyClass(person)">
+    <div class="couple">
+      <div class="person-card" [attr.data-lastname]="person.last_name">
+        <strong>{{person.first_name}} {{person.last_name}}</strong>
+        <small>{{person.date_of_birth}} {{person.date_of_death ? '- ' + person.date_of_death : ''}}</small>
+      </div>
+      <div class="person-card" *ngIf="person.spouse" [attr.data-lastname]="person.spouse.last_name">
+        <strong>{{person.spouse.first_name}} {{person.spouse.last_name}}</strong>
+        <small>{{person.spouse.date_of_birth}} {{person.spouse.date_of_death ? '- ' + person.spouse.date_of_death : ''}}</small>
+      </div>
+    </div>
+    <ul *ngIf="person.children?.length">
+      <ng-container *ngFor="let child of person.children">
+        <ng-template [ngTemplateOutlet]="treeNode" [ngTemplateOutletContext]="{$implicit: child}"></ng-template>
+      </ng-container>
+    </ul>
+  </li>
+</ng-template>

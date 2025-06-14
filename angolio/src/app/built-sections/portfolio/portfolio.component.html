@@ -17,121 +17,6 @@
   ></app-imgtext>
   <app-list
     [sectionHeader]="{
-      title: 'HOME.PORTFOLIO.OWNAPPS.TITLE' | translate,
-      text: 'HOME.PORTFOLIO.OWNAPPS.TEXT' | translate,
-    }"
-    [list]="[
-      {
-        title: 'Redo',
-        text: 'HOME.PORTFOLIO.OWNAPPS.RD.TEXT' | translate,
-        image: {
-          imagePath: '/assets/images/logos/RedoSmallIcon.png',
-          alt: 'Redo small icon',
-        },
-        children: [
-          {
-            image: {
-              imagePath: '/assets/images/logos/csharp.png',
-              alt: 'c# logo',
-            },
-          },
-          {
-            image: {
-              imagePath: '/assets/images/logos/netcore.png',
-              alt: '.NET Core logo',
-            },
-          },
-          {
-            image: {
-              imagePath: '/assets/images/logos/flutter.png',
-              alt: 'flutter logo',
-            },
-          },
-          {
-            image: {
-              imagePath: '/assets/images/logos/railway.png',
-              alt: 'railway.app logo',
-            },
-          },
-          {
-            image: {
-              imagePath: '/assets/images/logos/mysql.png',
-              alt: 'mysql logo',
-            },
-          },
-        ],
-        url: '/redo',
-      },
-      {
-        title: 'Space Engineers Blueprint Calc',
-        text: 'HOME.PORTFOLIO.OWNAPPS.SEBPC.TEXT' | translate,
-        icon: faCalculator,
-        children: [
-          {
-            image: {
-              imagePath: '/assets/images/logos/csharp.png',
-              alt: 'c# logo',
-            },
-          },
-        ],
-        url: 'https://github.com/Guzuu/SEBlueprintCalc',
-      },
-      {
-        title: 'Trove Pixel Art Tool',
-        text: 'HOME.PORTFOLIO.OWNAPPS.TPAT.TEXT' | translate,
-        image: {
-          imagePath: '/assets/images/logos/PAT_icon.jpg',
-          alt: 'pixel art tool icon',
-        },
-        children: [
-          {
-            image: {
-              imagePath: '/assets/images/logos/csharp.png',
-              alt: 'c# logo',
-            },
-          },
-        ],
-        url: 'https://github.com/Guzuu/TrovePixelArtTool',
-      },
-      {
-        title: 'WhatPass',
-        text: 'HOME.PORTFOLIO.OWNAPPS.WP.TEXT' | translate,
-        image: {
-          imagePath: '/assets/images/logos/whatPass.png',
-          alt: 'whatpass logo',
-        },
-        children: [
-          {
-            image: {
-              imagePath: '/assets/images/logos/csharp.png',
-              alt: 'c# logo',
-            },
-          },
-          {
-            image: {
-              imagePath: '/assets/images/logos/netcore.png',
-              alt: '.NET Core logo',
-            },
-          },
-          {
-            image: {
-              imagePath: '/assets/images/logos/js.png',
-              alt: 'javascript logo',
-            },
-          },
-          {
-            image: {
-              imagePath: '/assets/images/logos/mysql.png',
-              alt: 'mysql logo',
-            },
-          },
-        ],
-        url: 'https://github.com/Guzuu/WhatPass',
-      },
-    ]"
-  ></app-list>
-  <app-list
-    [sectionHeader]="{
       title: 'HOME.PORTFOLIO.OWNWEBS.TITLE' | translate,
       text: 'HOME.PORTFOLIO.OWNWEBS.TEXT' | translate,
     }"
@@ -170,6 +55,29 @@
           },
         ],
         url: 'https://github.com/Guzuu/Angolio',
+      },
+      {
+        title: 'muffiniarniamielec.pl',
+        text: 'HOME.PORTFOLIO.OWNWEBS.MMPL.TEXT' | translate,
+        image: {
+          imagePath: '/assets/images/logos/muffiniarnia-mielec.png',
+          alt: 'muffiniarnia mielec',
+        },
+        children: [
+          {
+            image: {
+              imagePath: '/assets/images/logos/wordpress.png',
+              alt: 'wordpress logo',
+            },
+          },
+          {
+            image: {
+              imagePath: '/assets/images/logos/mysql.png',
+              alt: 'mysql logo',
+            },
+          },
+        ],
+        url: 'https://muffiniarniamielec.pl/',
       },
       {
         title: 'alternatywa-travel.pl',
@@ -254,6 +162,121 @@
       },
     ]"
   ></app-list>
+  <app-list
+  [sectionHeader]="{
+    title: 'HOME.PORTFOLIO.OWNAPPS.TITLE' | translate,
+    text: 'HOME.PORTFOLIO.OWNAPPS.TEXT' | translate,
+  }"
+  [list]="[
+    {
+      title: 'Redo',
+      text: 'HOME.PORTFOLIO.OWNAPPS.RD.TEXT' | translate,
+      image: {
+        imagePath: '/assets/images/logos/RedoSmallIcon.png',
+        alt: 'Redo small icon',
+      },
+      children: [
+        {
+          image: {
+            imagePath: '/assets/images/logos/csharp.png',
+            alt: 'c# logo',
+          },
+        },
+        {
+          image: {
+            imagePath: '/assets/images/logos/netcore.png',
+            alt: '.NET Core logo',
+          },
+        },
+        {
+          image: {
+            imagePath: '/assets/images/logos/flutter.png',
+            alt: 'flutter logo',
+          },
+        },
+        {
+          image: {
+            imagePath: '/assets/images/logos/railway.png',
+            alt: 'railway.app logo',
+          },
+        },
+        {
+          image: {
+            imagePath: '/assets/images/logos/mysql.png',
+            alt: 'mysql logo',
+          },
+        },
+      ],
+      url: '/redo',
+    },
+    {
+      title: 'Space Engineers Blueprint Calc',
+      text: 'HOME.PORTFOLIO.OWNAPPS.SEBPC.TEXT' | translate,
+      icon: faCalculator,
+      children: [
+        {
+          image: {
+            imagePath: '/assets/images/logos/csharp.png',
+            alt: 'c# logo',
+          },
+        },
+      ],
+      url: 'https://github.com/Guzuu/SEBlueprintCalc',
+    },
+    {
+      title: 'Trove Pixel Art Tool',
+      text: 'HOME.PORTFOLIO.OWNAPPS.TPAT.TEXT' | translate,
+      image: {
+        imagePath: '/assets/images/logos/PAT_icon.jpg',
+        alt: 'pixel art tool icon',
+      },
+      children: [
+        {
+          image: {
+            imagePath: '/assets/images/logos/csharp.png',
+            alt: 'c# logo',
+          },
+        },
+      ],
+      url: 'https://github.com/Guzuu/TrovePixelArtTool',
+    },
+    {
+      title: 'WhatPass',
+      text: 'HOME.PORTFOLIO.OWNAPPS.WP.TEXT' | translate,
+      image: {
+        imagePath: '/assets/images/logos/whatPass.png',
+        alt: 'whatpass logo',
+      },
+      children: [
+        {
+          image: {
+            imagePath: '/assets/images/logos/csharp.png',
+            alt: 'c# logo',
+          },
+        },
+        {
+          image: {
+            imagePath: '/assets/images/logos/netcore.png',
+            alt: '.NET Core logo',
+          },
+        },
+        {
+          image: {
+            imagePath: '/assets/images/logos/js.png',
+            alt: 'javascript logo',
+          },
+        },
+        {
+          image: {
+            imagePath: '/assets/images/logos/mysql.png',
+            alt: 'mysql logo',
+          },
+        },
+      ],
+      url: 'https://github.com/Guzuu/WhatPass',
+    },
+  ]"
+></app-list>
   <div class="image">
     <app-list
       [list]="[
